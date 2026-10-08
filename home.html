@@ -1,528 +1,126 @@
 <!DOCTYPE html>
-<html lang="id"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"primary-fixed-dim":"#ffb59d","tertiary-container":"#5069bb","surface":"#f9f9ff","on-tertiary-fixed":"#00164e","surface-dim":"#cfdaf2","inverse-surface":"#263143","terracotta-soft":"#FFEDD5","surface-container-low":"#f0f3ff","secondary-fixed":"#ffdbcc","border-warm":"#E7DFD5","primary-fixed":"#ffdbd0","outline-variant":"#e1bfb5","on-error":"#ffffff","on-primary":"#ffffff","secondary-container":"#fd9e70","surface-container-highest":"#d8e3fb","secondary-fixed-dim":"#ffb693","canvas-cream":"#FAF8F5","on-tertiary-container":"#efefff","batik-indigo":"#1E3A8A","on-error-container":"#93000a","sogan-gold":"#B45309","surface-tint":"#ac3400","on-secondary-fixed-variant":"#76330d","on-tertiary":"#ffffff","tertiary-fixed":"#dce1ff","primary-container":"#c2410c","surface-container-high":"#dee8ff","surface-bright":"#f9f9ff","on-secondary":"#ffffff","surface-cream-subtle":"#F4EFEA","on-secondary-fixed":"#351000","outline":"#8d7168","primary":"#9b2f00","error-container":"#ffdad6","on-primary-fixed":"#390c00","tertiary":"#3650a0","on-primary-fixed-variant":"#832600","secondary":"#944a23","surface-variant":"#d8e3fb","inverse-primary":"#ffb59d","surface-container-lowest":"#ffffff","on-surface":"#111c2d","tertiary-fixed-dim":"#b6c4ff","on-tertiary-fixed-variant":"#264191","terracotta-hover":"#9A3412","on-surface-variant":"#59413a","error":"#ba1a1a","on-secondary-container":"#76340e","inverse-on-surface":"#ecf1ff","on-background":"#111c2d","surface-container":"#e7eeff","background":"#f9f9ff","on-primary-container":"#ffece7"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"margin":"1rem","gutter":"1.25rem","space-md":"1rem","gutter-desktop":"1.5rem","space-lg":"1.5rem","margin-desktop":"3rem","space-sm":"0.5rem","space-xl":"2.5rem","space-xs":"0.25rem","margin-tablet":"2rem"},fontFamily:{"headline-xl":["Plus Jakarta Sans"],"label-lg":["Inter"],"headline-md":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"body-md":["Inter"],"label-md":["Inter"],"headline-sm":["Plus Jakarta Sans"],"display-lg-mobile":["Plus Jakarta Sans"],"display-lg":["Plus Jakarta Sans"],"body-sm":["Inter"],"headline-xl-mobile":["Plus Jakarta Sans"],"body-xl":["Inter"],"label-sm":["Inter"]},fontSize:{"headline-xl":["2.5rem",{"lineHeight":"3rem","letterSpacing":"-0.02em","fontWeight":"700"}],"label-lg":["0.9375rem",{"lineHeight":"1.25rem","letterSpacing":"0.01em","fontWeight":"600"}],"headline-md":["1.5rem",{"lineHeight":"2rem","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-lg":["1.875rem",{"lineHeight":"2.375rem","letterSpacing":"-0.015em","fontWeight":"700"}],"body-md":["1rem",{"lineHeight":"1.625rem","fontWeight":"400"}],"label-md":["0.8125rem",{"lineHeight":"1.125rem","letterSpacing":"0.02em","fontWeight":"600"}],"headline-sm":["1.25rem",{"lineHeight":"1.75rem","fontWeight":"600"}],"display-lg-mobile":["2.25rem",{"lineHeight":"2.75rem","letterSpacing":"-0.02em","fontWeight":"800"}],"display-lg":["3.5rem",{"lineHeight":"4rem","letterSpacing":"-0.025em","fontWeight":"800"}],"body-sm":["0.875rem",{"lineHeight":"1.375rem","fontWeight":"400"}],"headline-xl-mobile":["1.75rem",{"lineHeight":"2.25rem","letterSpacing":"-0.015em","fontWeight":"700"}],"body-xl":["1.125rem",{"lineHeight":"1.875rem","fontWeight":"400"}],"label-sm":["0.6875rem",{"lineHeight":"1rem","letterSpacing":"0.04em","fontWeight":"700"}]}}}};</script></head><body class="bg-canvas-cream font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-[1280px] mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop flex items-center justify-between"><div class="flex items-center gap-space-md"><img alt="Surakarta's Culture Logo" class="h-8 w-auto object-contain" src="p.jpg"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight">Surakarta's Culture</span><span class="hidden sm:inline-block font-label-sm text-label-sm text-sogan-gold tracking-wider uppercase">Hub Kebudayaan Kota Solo</span></div></div><nav class="hidden lg:flex items-center gap-space-lg" data-active-classes="bg-primary-container text-on-primary-container font-label-md rounded-full px-space-md py-space-xs shadow-sm"><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="home" href="home.html">Home</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="kalender-budaya" href="kalender-budaya.html">Kalender Budaya</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="marketplace" href="marketplace.html">Marketplace</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="info-wisata" href="info-wisata.html">Info Wisata</a><a aria-current="page" class="transition-colors bg-primary-container text-on-primary-container font-label-md rounded-full px-space-md py-space-xs shadow-sm" data-path="ai-chatbot" href="ai-chatbot.html">AI Chatbot</a></nav><div class="flex items-center gap-space-md"><a class="hidden sm:inline-flex items-center justify-center h-10 px-space-md rounded-full bg-surface-cream-subtle text-secondary font-label-md text-label-md hover:bg-terracotta-soft hover:text-terracotta-hover transition-colors" data-path="marketplace" href="marketplace.html"><span class="material-symbols-outlined text-[18px] mr-space-xs">storefront</span>Jelajah Solo</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shadow-sm"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-canvas-cream pb-24 lg:pb-0"><div class="flex flex-col w-full">
-<section class="relative w-full overflow-hidden bg-gradient-to-b from-surface-cream-subtle via-canvas-cream to-canvas-cream py-space-xl">
-<div class="absolute -top-24 right-0 w-96 h-96 rounded-full bg-terracotta-soft/60 blur-3xl pointer-events-none"></div>
-<div class="absolute top-1/2 -left-20 w-80 h-80 rounded-full bg-sogan-gold/10 blur-2xl pointer-events-none"></div>
-<div class="max-w-[1280px] mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop relative z-10">
-<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-space-lg mb-space-lg">
-<div class="max-w-2xl">
-<div class="inline-flex items-center gap-space-xs px-space-md py-1 rounded-full bg-terracotta-soft text-primary font-label-sm text-label-sm uppercase tracking-wider mb-space-sm shadow-sm">
-<span class="material-symbols-outlined text-[16px]">auto_awesome</span>
-            Kecerdasan Budaya Digital
-          </div>
-<h1 class="font-display-lg text-headline-xl lg:text-display-lg text-primary tracking-tight">Solo Smart Itinerary AI</h1>
-<p class="font-body-xl text-body-xl text-on-surface-variant mt-space-xs leading-relaxed">
-            Asisten cerdas pembuat jadwal liburan instan di Surakarta berdasarkan budget, waktu, dan preferensi budayamu.
-          </p>
-</div>
-<div class="flex flex-wrap items-center gap-space-sm bg-surface-container-lowest p-space-sm rounded-xl shadow-sm">
-<div class="flex items-center gap-space-xs text-sogan-gold">
-<span class="material-symbols-outlined text-[18px]">verified</span>
-<span class="font-label-md text-label-md">Model Terkurasi 2025</span>
-</div>
-<span class="text-outline-variant">•</span>
-<span class="font-label-md text-label-md text-on-surface-variant">Data Pariwisata Resmi Surakarta</span>
-</div>
-</div>
-<div class="mb-space-lg">
-<div class="flex items-center gap-space-xs mb-space-sm text-on-surface-variant">
-<span class="material-symbols-outlined text-[18px] text-primary">tips_and_updates</span>
-<span class="font-label-sm text-label-sm uppercase tracking-wider font-semibold">Pilih Prompt Cepat:</span>
-</div>
-<div class="flex flex-wrap gap-space-sm" id="quickPromptContainer">
-<button class="quick-chip group flex items-center gap-space-xs px-space-md py-2.5 rounded-full bg-surface-container-lowest hover:bg-terracotta-soft text-on-surface hover:text-primary shadow-sm transition-all duration-200 font-label-md text-label-md" data-prompt="Buatkan rute 2 hari 1 malam hemat di Solo untuk kalangan Gen-Z / mahasiswa dengan budget maksimal 300 ribu rupiah." type="button">
-<span>⚡ Rute 2 Hari 1 Malam Hemat di Solo (Mahasiswa/Gen-Z)</span>
-<span class="material-symbols-outlined text-[16px] text-outline group-hover:text-primary">arrow_forward</span>
-</button>
-<button class="quick-chip group flex items-center gap-space-xs px-space-md py-2.5 rounded-full bg-surface-container-lowest hover:bg-terracotta-soft text-on-surface hover:text-primary shadow-sm transition-all duration-200 font-label-md text-label-md" data-prompt="Rekomendasikan oleh-oleh batik tulis/cap autentik serta sentra kuliner legendaris yang wajib dikunjungi." type="button">
-<span>🏺 Rekomendasi Oleh-oleh Batik &amp; Kuliner Legendaris</span>
-<span class="material-symbols-outlined text-[16px] text-outline group-hover:text-primary">arrow_forward</span>
-</button>
-<button class="quick-chip group flex items-center gap-space-xs px-space-md py-2.5 rounded-full bg-surface-container-lowest hover:bg-terracotta-soft text-on-surface hover:text-primary shadow-sm transition-all duration-200 font-label-md text-label-md" data-prompt="Susun agenda napak tilas sejarah 1 hari penuh meliputi Keraton Kasunanan Surakarta dan Pura Mangkunegaran." type="button">
-<span>👑 Wisata Sejarah Keraton &amp; Pura Mangkunegaran 1 Hari</span>
-<span class="material-symbols-outlined text-[16px] text-outline group-hover:text-primary">arrow_forward</span>
-</button>
-<button class="quick-chip group flex items-center gap-space-xs px-space-md py-2.5 rounded-full bg-surface-container-lowest hover:bg-terracotta-soft text-on-surface hover:text-primary shadow-sm transition-all duration-200 font-label-md text-label-md" data-prompt="Cari kafe dan kedai kopi berkonsep arsitektur Jawa Klasik/Joglo yang tenang untuk santai." type="button">
-<span>☕ Hidden Gem Kafe Bernuansa Jawa Klasik</span>
-<span class="material-symbols-outlined text-[16px] text-outline group-hover:text-primary">arrow_forward</span>
-</button>
-</div>
-</div>
-</div>
-</section>
-<section class="w-full max-w-[1280px] mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop mb-space-xl">
-<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-start">
-<div class="lg:col-span-8 flex flex-col bg-surface-container-lowest rounded-xl shadow-lg overflow-hidden">
-<div class="p-space-md bg-surface-cream-subtle flex items-center justify-between">
-<div class="flex items-center gap-space-md">
-<div class="relative">
-<div class="w-12 h-12 rounded-full bg-primary flex items-center justify-center text-on-primary shadow-md overflow-hidden">
-<span class="material-symbols-outlined text-[28px]" style="font-variation-settings: 'FILL' 1;">smart_toy</span>
-</div>
-<span class="absolute bottom-0 right-0 w-3.5 h-3.5 rounded-full bg-emerald-500 ring-2 ring-surface-container-lowest"></span>
-</div>
-<div>
-<div class="flex items-center gap-space-xs">
-<span class="font-headline-sm text-headline-sm text-on-surface">Pemandu Digital Surakarta</span>
-<span class="px-2 py-0.5 rounded-full bg-primary-container text-on-primary-container font-label-sm text-label-sm">AI Engine v2.4</span>
-</div>
-<p class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1">
-<span class="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-              Siap memandu • Bahasa Indonesia &amp; Krama Inggil Friendly
-            </p>
-</div>
-</div>
-<div class="flex items-center gap-space-xs">
-<button class="p-2.5 rounded-full bg-surface-container-lowest hover:bg-terracotta-soft text-on-surface-variant hover:text-primary transition-colors shadow-sm flex items-center justify-center" id="resetChatBtn" title="Reset Percakapan">
-<span class="material-symbols-outlined text-[20px]">restart_alt</span>
-</button>
-<button class="p-2.5 rounded-full bg-surface-container-lowest hover:bg-terracotta-soft text-on-surface-variant hover:text-primary transition-colors shadow-sm flex items-center justify-center" id="exportItineraryBtn" title="Simpan Jadwal">
-<span class="material-symbols-outlined text-[20px]">bookmark_add</span>
-</button>
-</div>
-</div>
-<div class="p-space-md md:p-space-lg space-y-space-lg max-h-[720px] overflow-y-auto bg-canvas-cream/50" id="chatMessageFlow">
-<div class="flex items-start gap-space-md">
-<div class="w-10 h-10 rounded-full bg-primary text-on-primary flex items-center justify-center shrink-0 shadow-sm">
-<span class="material-symbols-outlined text-[20px]">smart_toy</span>
-</div>
-<div class="max-w-[85%] bg-surface-container-lowest p-space-md rounded-2xl rounded-tl-sm shadow-sm space-y-space-sm text-on-surface">
-<p class="font-headline-sm text-headline-sm text-primary">Sugeng rawuh ing Surakarta!</p>
-<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
-                Mau eksplor Solo berapa lama dan bersama siapa? Klik salah satu prompt cepat di atas atau ceritakan rencanamu secara langsung di kolom chat bawah!
-              </p>
-<div class="pt-space-xs flex flex-wrap gap-2 text-label-sm font-label-sm text-sogan-gold">
-<span class="bg-surface-cream-subtle px-2.5 py-1 rounded-md">✨ Rekomendasi Rute Real-Time</span>
-<span class="bg-surface-cream-subtle px-2.5 py-1 rounded-md">🚍 Info Integrasi BST &amp; Feeder</span>
-<span class="bg-surface-cream-subtle px-2.5 py-1 rounded-md">💰 Estimasi Biaya Transparan</span>
-</div>
-</div>
-</div>
-<div class="flex items-start justify-end gap-space-md">
-<div class="max-w-[80%] bg-primary text-on-primary p-space-md rounded-2xl rounded-tr-sm shadow-md">
-<p class="font-body-md text-body-md leading-relaxed">
-                ⚡ Tolong buatkan rute 2 Hari 1 Malam Hemat di Solo untuk Mahasiswa/Gen-Z dengan spot Instagramable, kuliner khas, dan transportasi Batik Solo Trans.
-              </p>
-<span class="block text-right font-label-sm text-label-sm text-primary-fixed opacity-80 mt-1">10:42 WIB</span>
-</div>
-<div class="w-10 h-10 rounded-full bg-surface-container-highest text-primary flex items-center justify-center shrink-0 shadow-sm font-headline-sm text-headline-sm">
-<span class="material-symbols-outlined text-[20px]">person</span>
-</div>
-</div>
-<div class="flex items-start gap-space-md">
-<div class="w-10 h-10 rounded-full bg-primary text-on-primary flex items-center justify-center shrink-0 shadow-sm">
-<span class="material-symbols-outlined text-[20px]">smart_toy</span>
-</div>
-<div class="w-full max-w-[92%] bg-surface-container-lowest p-space-md md:p-space-lg rounded-2xl rounded-tl-sm shadow-md space-y-space-md">
-<div class="flex flex-wrap items-center justify-between gap-space-xs pb-space-sm border-b border-border-warm/40">
-<div>
-<span class="font-label-sm text-label-sm uppercase tracking-wider text-sogan-gold font-bold">Rencana Perjalanan Khusus</span>
-<h3 class="font-headline-md text-headline-md text-on-surface">2D1N Eksplorasi Solo Hemat &amp; Ikonik</h3>
-</div>
-<div class="flex items-center gap-space-xs bg-terracotta-soft text-primary px-3 py-1.5 rounded-full font-label-md text-label-md">
-<span class="material-symbols-outlined text-[16px]">payments</span>
-<span>Est. Biaya: Rp 165.000 / orang</span>
-</div>
-</div>
-<div class="space-y-space-md">
-<div class="bg-surface-cream-subtle/70 p-space-md rounded-xl space-y-space-sm">
-<div class="flex items-center justify-between">
-<span class="px-2.5 py-1 rounded bg-primary text-on-primary font-label-sm text-label-sm font-bold">HARI 1: Pesona Sejarah &amp; Kemegahan Malam</span>
-<span class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1">
-<span class="material-symbols-outlined text-[16px]">directions_bus</span> BST Koridor 1 &amp; Koridor 3
-                  </span>
-</div>
-<div class="space-y-3 pt-2">
-<div class="flex items-start gap-3">
-<div class="w-16 font-label-md text-label-md text-sogan-gold font-bold shrink-0">08.30 WIB</div>
-<div class="flex-1">
-<p class="font-headline-sm text-headline-sm text-on-surface">Pagi: Sarapan Pasar Gede &amp; Eksplor Pecinan</p>
-<p class="font-body-sm text-body-sm text-on-surface-variant">Menikmati Lenjongan Yu Sum (Rp 8.000) &amp; Es Dawet Telasih Bu Dermi (Rp 11.000). Spot foto arsitektur gerbang Pasar Gede karya Thomas Karsten.</p>
-</div>
-</div>
-<div class="flex items-start gap-3 bg-surface-container-lowest p-3 rounded-lg shadow-sm">
-<div class="w-16 font-label-md text-label-md text-sogan-gold font-bold shrink-0">12.00 WIB</div>
-<div class="flex-1">
-<div class="flex items-center gap-2 flex-wrap">
-<p class="font-headline-sm text-headline-sm text-on-surface">Siang: Makan Siang di Selat Solo Mbak Lies</p>
-<span class="px-2 py-0.5 rounded-full bg-sogan-gold text-on-primary font-label-sm text-label-sm font-bold tracking-wide flex items-center gap-1 shadow-sm">
-<span class="material-symbols-outlined text-[13px]">award_star</span> Mitra Resmi Wisata
-                        </span>
-</div>
-<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Kuliner selat bistik berkuah segar dengan nuansa ribuan piring keramik antik yang estetik di Gang Serengan. Diskon 10% dengan kode <span class="font-bold text-primary">SOLOCULTURE10</span>.</p>
-<div class="mt-2 flex items-center gap-4 text-label-sm font-label-sm text-primary">
-<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">sell</span> Kisaran: Rp 22.000 - Rp 35.000</span>
-<span class="flex items-center gap-1 text-on-surface-variant"><span class="material-symbols-outlined text-[14px]">pin_drop</span> Serengan, Solo</span>
-</div>
-</div>
-</div>
-<div class="flex items-start gap-3">
-<div class="w-16 font-label-md text-label-md text-sogan-gold font-bold shrink-0">15.30 WIB</div>
-<div class="flex-1">
-<p class="font-headline-sm text-headline-sm text-on-surface">Sore: Pura Mangkunegaran &amp; Taman Pracima Tuin</p>
-<p class="font-body-sm text-body-sm text-on-surface-variant">Berkeliling pelataran agung Mangkunegaran, melihat ornamen batik Parang Rusak, dan bersantai di taman Pracima yang asri.</p>
-</div>
-</div>
-<div class="flex items-start gap-3 bg-surface-container-lowest p-3 rounded-lg shadow-sm">
-<div class="w-16 font-label-md text-label-md text-sogan-gold font-bold shrink-0">19.30 WIB</div>
-<div class="flex-1">
-<div class="flex items-center gap-2 flex-wrap">
-<p class="font-headline-sm text-headline-sm text-on-surface">Malam: Pentas Wayang Orang Sriwedari</p>
-<span class="px-2 py-0.5 rounded-full bg-sogan-gold text-on-primary font-label-sm text-label-sm font-bold tracking-wide flex items-center gap-1 shadow-sm">
-<span class="material-symbols-outlined text-[13px]">award_star</span> Mitra Resmi Wisata
-                        </span>
-</div>
-<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Menyaksikan lakon epik Mahabharata oleh seniman legendaris Sriwedari dengan kostum keraton gemerlap. Tiket reguler sangat terjangkau untuk pelajar.</p>
-<div class="mt-2 flex items-center gap-4 text-label-sm font-label-sm text-primary">
-<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">confirmation_number</span> Tiket: Rp 20.000</span>
-<span class="flex items-center gap-1 text-on-surface-variant"><span class="material-symbols-outlined text-[14px]">schedule</span> Durasi: 2 Jam</span>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="bg-surface-cream-subtle/70 p-space-md rounded-xl space-y-space-sm">
-<div class="flex items-center justify-between">
-<span class="px-2.5 py-1 rounded bg-secondary text-on-secondary font-label-sm text-label-sm font-bold">HARI 2: Belanja Heritage &amp; Nostalgia Tempo Dulu</span>
-<span class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1">
-<span class="material-symbols-outlined text-[16px]">commute</span> KRL Solo-Yogya Access / BST
-                  </span>
-</div>
-<div class="space-y-3 pt-2">
-<div class="flex items-start gap-3">
-<div class="w-16 font-label-md text-label-md text-sogan-gold font-bold shrink-0">08.00 WIB</div>
-<div class="flex-1">
-<p class="font-headline-sm text-headline-sm text-on-surface">Pagi: Hunting Foto &amp; Jalan Pagi di Kampung Batik Kauman</p>
-<p class="font-body-sm text-body-sm text-on-surface-variant">Menyusuri gang-gang sempit berdinding bata tua dan rumah saudagar batik klasik. Banyak spot vintage foto OOTD tanpa tiket masuk.</p>
-</div>
-</div>
-<div class="flex items-start gap-3">
-<div class="w-16 font-label-md text-label-md text-sogan-gold font-bold shrink-0">11.30 WIB</div>
-<div class="flex-1">
-<p class="font-headline-sm text-headline-sm text-on-surface">Siang: Makan Siang Nasi Liwet Bu Sri Ketandan</p>
-<p class="font-body-sm text-body-sm text-on-surface-variant">Sajian gurih nasi liwet komplet dengan suwiran ayam kampung, telur bacem, dan kuah labu siam lezat (Rp 18.000).</p>
-</div>
-</div>
-<div class="flex items-start gap-3 bg-surface-container-lowest p-3 rounded-lg shadow-sm">
-<div class="w-16 font-label-md text-label-md text-sogan-gold font-bold shrink-0">13.30 WIB</div>
-<div class="flex-1">
-<div class="flex items-center gap-2 flex-wrap">
-<p class="font-headline-sm text-headline-sm text-on-surface">Oleh-oleh: Pusat Batik Danar Hadi &amp; Pasar Klewer</p>
-<span class="px-2 py-0.5 rounded-full bg-sogan-gold text-on-primary font-label-sm text-label-sm font-bold tracking-wide flex items-center gap-1 shadow-sm">
-<span class="material-symbols-outlined text-[13px]">award_star</span> Mitra Resmi Wisata
-                        </span>
-</div>
-<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Beli cenderamata kain batik cap motif Kawung/Truntum dan jajanan Serabi Notosuman Ny. Handayani yang masih hangat.</p>
-</div>
-</div>
-</div>
-</div>
-<div class="p-space-md rounded-xl bg-terracotta-soft/50 text-on-surface flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-sm">
-<div class="flex items-center gap-space-sm">
-<span class="material-symbols-outlined text-primary text-[24px]">electric_bolt</span>
-<div>
-<p class="font-headline-sm text-headline-sm text-primary">Tips Transportasi Hemat:</p>
-<p class="font-body-sm text-body-sm text-on-surface-variant">Gunakan BST (Batik Solo Trans) dengan kartu uang elektronik / QRIS tap. Tarif flat Rp 3.700 (gratis untuk pelajar berseragam/KTM terdaftar).</p>
-</div>
-</div>
-<button class="shrink-0 px-space-md py-2 rounded-full bg-primary text-on-primary font-label-md text-label-md hover:bg-terracotta-hover transition-colors shadow-sm" type="button">
-                    Unduh PDF Rute
-                  </button>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="p-space-md bg-surface-container-lowest shadow-[0_-4px_16px_rgba(0,0,0,0.03)]">
-<form class="flex flex-col gap-space-sm" id="chatForm">
-<div class="relative flex items-center">
-<input class="w-full bg-surface-cream-subtle text-on-surface placeholder:text-outline font-body-md text-body-md rounded-full pl-5 pr-28 py-3.5 focus:outline-none focus:ring-2 focus:ring-primary shadow-inner" id="chatInput" placeholder="Tanya atau tulis rencanamu di sini... (cth: 'Cari kuliner halal dekat Stasiun Balapan')" type="text"/>
-<div class="absolute right-2 flex items-center gap-1.5">
-<button class="p-2 rounded-full text-outline hover:text-on-surface transition-colors flex items-center justify-center" id="clearInputBtn" title="Hapus Teks" type="button">
-<span class="material-symbols-outlined text-[18px]">close</span>
-</button>
-<button class="w-10 h-10 rounded-full bg-primary-container text-on-primary-container hover:bg-primary hover:text-on-primary flex items-center justify-center shadow-md transition-all" title="Kirim Pertanyaan" type="submit">
-<span class="material-symbols-outlined text-[20px]">arrow_upward</span>
-</button>
-</div>
-</div>
-<div class="flex flex-wrap items-center justify-between gap-2 px-2 text-label-sm font-label-sm text-on-surface-variant">
-<div class="flex items-center gap-2">
-<span class="inline-block w-2 h-2 rounded-full bg-emerald-500"></span>
-<span>Prompt Helper: ketik durasi hari, rombongan, atau preferensi rasa.</span>
-</div>
-<div class="flex items-center gap-3">
-<button class="hover:text-primary transition-colors flex items-center gap-1" onclick="document.getElementById('chatInput').value='Rekomendasi hotel murah dekat Mangkunegaran'; document.getElementById('chatInput').focus();" type="button">
-<span class="material-symbols-outlined text-[14px]">hotel</span> Cek Penginapan
-                </button>
-<button class="hover:text-primary transition-colors flex items-center gap-1" onclick="document.getElementById('chatInput').value='Jadwal Kirab Malam 1 Suro'; document.getElementById('chatInput').focus();" type="button">
-<span class="material-symbols-outlined text-[14px]">event</span> Kirab Budaya
-                </button>
-</div>
-</div>
-</form>
-</div>
-</div>
-<div class="lg:col-span-4 space-y-space-md">
-<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-md">
-<div class="flex items-center justify-between mb-space-sm">
-<h4 class="font-headline-sm text-headline-sm text-on-surface flex items-center gap-space-xs">
-<span class="material-symbols-outlined text-primary text-[20px]">workspace_premium</span>
-            Top 3 Rekomendasi Mitra
-          </h4>
-<span class="font-label-sm text-label-sm px-2 py-0.5 rounded bg-terracotta-soft text-primary font-semibold">Terkurasi</span>
-</div>
-<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">
-          Destinasi resmi dengan jaminan standar keramahan autentik khas Surakarta Hadiningrat.
-        </p>
-<div class="space-y-space-md">
-<div class="group p-space-sm rounded-xl bg-surface-cream-subtle hover:bg-terracotta-soft/40 transition-colors">
-<div class="flex gap-space-sm">
-<div class="relative w-20 h-20 rounded-lg overflow-hidden shrink-0">
-<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Traditional Selat Solo dining plate with sliced beef, boiled egg, vegetables, and savoury sweet broth garnished with crackers, served in heritage Javanese colonial restaurant setting with warm terracotta and teak accents." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQ4hPDR6TPTBqcLzUQGg20ZVj-b-DJ2BxNTgZl8DkfW1gqP4jnw8sMIzma0cvBdYPK1AWKajOYf-CBtokadjERAexJoSPbfUT9T67bdTVYlSmxorC_eI3nr8F4KflpRz3igbMVJ4Y0y_Xt0vTL3zmxwSOfwNtwx8KPdOZDLe2KN8-5fRCHYNLUn4xwOagg6atU6BUUcqTtBJvqN4oMvPo4KZqgxxLWkdm4wz7w4ZVC"/>
-<span class="absolute top-1 left-1 px-1.5 py-0.5 rounded bg-sogan-gold text-on-primary font-label-sm text-[10px] uppercase font-bold">Mitra</span>
-</div>
-<div class="flex-1 min-w-0">
-<div class="flex items-center justify-between">
-<span class="font-label-sm text-label-sm text-primary font-semibold">Kuliner Legendaris</span>
-<span class="flex items-center text-amber-500 font-label-sm text-label-sm">★ 4.8</span>
-</div>
-<h5 class="font-headline-sm text-body-md font-bold text-on-surface truncate">Selat Solo Mbak Lies</h5>
-<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-1 mt-0.5">Vibe keramik antik &amp; rasa otentik sejak 1987</p>
-<div class="mt-2 flex items-center justify-between">
-<span class="font-label-sm text-label-sm text-secondary font-bold">Mulai Rp 22.000</span>
-<a class="font-label-sm text-label-sm text-primary hover:underline flex items-center" data-path="marketplace" href="marketplace.html">Detail <span class="material-symbols-outlined text-[14px]">chevron_right</span></a>
-</div>
-</div>
-</div>
-</div>
-<div class="group p-space-sm rounded-xl bg-surface-cream-subtle hover:bg-terracotta-soft/40 transition-colors">
-<div class="flex gap-space-sm">
-<div class="relative w-20 h-20 rounded-lg overflow-hidden shrink-0">
-<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Live Wayang Orang theatrical stage performance in Sriwedari Solo with classical Javanese dancers wearing majestic gold headdresses, batik cloths, and traditional makeup under warm theatrical spotlights." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB1vO3pHJlq55iVXYujRu2wIiyyJth0G69t0sn9y4rFRt7qECuhlyVNpXSEGw9EyQj3M3s7I0y_YjzC8B7D5IHtZE96tljWUBrfF-kCymWRFYhkQQ4RQBmXmXy86TIGaZ_qrea6PTY4Z1AnyDpfSaPRlgHd_iACYYtenurLg75r3B7GCx7zmV6tZ6ki0fLexro-IpAk9r11fSBwgS_5ucsEqRq2GuL0kqpxDsvmLf77"/>
-<span class="absolute top-1 left-1 px-1.5 py-0.5 rounded bg-sogan-gold text-on-primary font-label-sm text-[10px] uppercase font-bold">Mitra</span>
-</div>
-<div class="flex-1 min-w-0">
-<div class="flex items-center justify-between">
-<span class="font-label-sm text-label-sm text-primary font-semibold">Seni Pertunjukan</span>
-<span class="flex items-center text-amber-500 font-label-sm text-label-sm">★ 4.9</span>
-</div>
-<h5 class="font-headline-sm text-body-md font-bold text-on-surface truncate">Wayang Orang Sriwedari</h5>
-<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-1 mt-0.5">Warisan budaya adiluhung setiap malam</p>
-<div class="mt-2 flex items-center justify-between">
-<span class="font-label-sm text-label-sm text-secondary font-bold">Tiket Rp 20.000</span>
-<a class="font-label-sm text-label-sm text-primary hover:underline flex items-center" data-path="kalender-budaya" href="kalender-budaya.html">Jadwal <span class="material-symbols-outlined text-[14px]">chevron_right</span></a>
-</div>
-</div>
-</div>
-</div>
-<div class="group p-space-sm rounded-xl bg-surface-cream-subtle hover:bg-terracotta-soft/40 transition-colors">
-<div class="flex gap-space-sm">
-<div class="relative w-20 h-20 rounded-lg overflow-hidden shrink-0">
-<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Traditional artisan stamping wax onto brown and cream sogan batik textiles inside heritage workshop in Solo, warm soft daylight illuminating stacks of artisanal fabrics and canting tools." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDdvXJeHztjpIUf_GXqbkDyyJjyIsJnqbVCJn9tGI4FiF4DvTwsV8cAw4t4UZLQ7T6pfAXubVFoGKeU0Q1GB81AYeqVm5HoCbQA8rlxjFg3ulaARAqa4px2XkSABr4rKQHKSMqXzkpakS_L9jCAoZ0tlJHymO4NUXIlg3RMdh0D-FgJwflcrcDS-YcjxcZwUqPKn1MruwYH3LGpbm7QWE_9d8WiMXlItYR5Z8rMFJy1"/>
-<span class="absolute top-1 left-1 px-1.5 py-0.5 rounded bg-sogan-gold text-on-primary font-label-sm text-[10px] uppercase font-bold">Mitra</span>
-</div>
-<div class="flex-1 min-w-0">
-<div class="flex items-center justify-between">
-<span class="font-label-sm text-label-sm text-primary font-semibold">Sentra Kriya</span>
-<span class="flex items-center text-amber-500 font-label-sm text-label-sm">★ 4.7</span>
-</div>
-<h5 class="font-headline-sm text-body-md font-bold text-on-surface truncate">Batik Danar Hadi Solo</h5>
-<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-1 mt-0.5">Museum batik kuno &amp; belanja kain berstandar</p>
-<div class="mt-2 flex items-center justify-between">
-<span class="font-label-sm text-label-sm text-secondary font-bold">Voucher Rp 50.000</span>
-<a class="font-label-sm text-label-sm text-primary hover:underline flex items-center" data-path="marketplace" href="marketplace.html">Koleksi <span class="material-symbols-outlined text-[14px]">chevron_right</span></a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="bg-surface-cream-subtle p-space-md rounded-xl shadow-sm space-y-space-sm">
-<div class="flex items-center gap-space-xs text-on-surface">
-<span class="material-symbols-outlined text-primary text-[20px]">map</span>
-<h4 class="font-headline-sm text-headline-sm">Peta Koridor Rekomendasi</h4>
-</div>
-<p class="font-body-sm text-body-sm text-on-surface-variant">Rute dioptimalkan untuk meminimalkan waktu tempuh via koridor BST utama Slamet Riyadi.</p>
-<div class="w-full h-44 rounded-lg bg-cover bg-center shadow-inner relative overflow-hidden" data-location="Kraton Surakarta Hadiningrat, Solo" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDYm8qXpD3sIB3Xs3mh5rnuHMhULxlC6cbd3iMHyc3urjH38srp20K7bxN6-8xaxXv1DRxRO5WAJu1nzWWXwTQeBLB-5DxI2V5wupDAq5KA4N9kDhoqq-akGfoYxptSem3wnzAm2YnnZ2XUnXRRVOn-kf7_pjmTwVpAlqKbZN-cdcu8eetzlqV7XrkQf4TcNbQBsdn28uPbXhW8Nfl9D_dKOV--u4WF9Crnhoh6j9vG')">
-<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/60 via-transparent to-transparent flex items-end p-space-sm">
-<span class="font-label-sm text-label-sm text-on-primary bg-primary/80 backdrop-blur-md px-2.5 py-1 rounded-md">
-              Jalur Wisata Kraton - Sriwedari - Manahan
-            </span>
-</div>
-</div>
-</div>
-<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm">
-<div class="flex items-start gap-space-sm">
-<div class="p-2 rounded-lg bg-tertiary-fixed text-tertiary shrink-0">
-<span class="material-symbols-outlined text-[20px]">memory</span>
-</div>
-<div class="space-y-1">
-<div class="flex items-center gap-2">
-<span class="font-headline-sm text-body-md font-bold text-on-surface">Service Hook &amp; Architecture Note</span>
-<span class="px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800 font-label-sm text-[10px] font-bold">Production Ready</span>
-</div>
-<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
-              Modul itinerary builder ini dirancang menggunakan <strong>Service Abstraction Layer</strong> yang terisolasi. Siap dihubungkan secara plug-and-play ke LLM Provider API seperti <strong>Google Gemini Pro (Vertex AI)</strong> atau <strong>OpenAI GPT-4o</strong> melalui webhook gateway tanpa perlu mengubah antarmuka visual.
-            </p>
-<div class="pt-2 flex flex-wrap gap-2 text-[11px] font-mono text-outline">
-<span class="px-2 py-0.5 rounded bg-surface-cream-subtle">LLM_PROVIDER: gemini-1.5-pro</span>
-<span class="px-2 py-0.5 rounded bg-surface-cream-subtle">LATENCY: ~480ms</span>
-<span class="px-2 py-0.5 rounded bg-surface-cream-subtle">REST / SSE Stream Hook</span>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<script>
-    (function initChatbotInteractive() {
-      const chatForm = document.getElementById('chatForm');
-      const chatInput = document.getElementById('chatInput');
-      const chatFlow = document.getElementById('chatMessageFlow');
-      const clearBtn = document.getElementById('clearInputBtn');
-      const resetBtn = document.getElementById('resetChatBtn');
-      const quickChips = document.querySelectorAll('.quick-chip');
-
-      function scrollToBottom() {
-        if (chatFlow) {
-          chatFlow.scrollTo({
-            top: chatFlow.scrollHeight,
-            behavior: 'smooth'
-          });
+<html lang="id">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="web_standard" name="shell-type"/>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+  <style>
+    @layer base {
+      html, body { margin: 0; padding: 0; }
+      body { overscroll-behavior: none; }
+      main>:first-child { margin-top: 0!important; }
+      main>:last-child { margin-bottom: 0!important; }
+    }
+    ::-webkit-scrollbar { display: none; }
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary-fixed-dim": "#ffb59d", "tertiary-container": "#5069bb", "surface": "#f9f9ff",
+            "on-tertiary-fixed": "#00164e", "surface-dim": "#cfdaf2", "inverse-surface": "#263143",
+            "terracotta-soft": "#FFEDD5", "surface-container-low": "#f0f3ff", "secondary-fixed": "#ffdbcc",
+            "border-warm": "#E7DFD5", "primary-fixed": "#ffdbd0", "outline-variant": "#e1bfb5",
+            "on-error": "#ffffff", "on-primary": "#ffffff", "secondary-container": "#fd9e70",
+            "surface-container-highest": "#d8e3fb", "secondary-fixed-dim": "#ffb693", "canvas-cream": "#FAF8F5",
+            "on-tertiary-container": "#efefff", "batik-indigo": "#1E3A8A", "on-error-container": "#93000a",
+            "sogan-gold": "#B45309", "surface-tint": "#ac3400", "on-secondary-fixed-variant": "#76330d",
+            "on-tertiary": "#ffffff", "tertiary-fixed": "#dce1ff", "primary-container": "#c2410c",
+            "surface-container-high": "#dee8ff", "surface-bright": "#f9f9ff", "on-secondary": "#ffffff",
+            "surface-cream-subtle": "#F4EFEA", "on-secondary-fixed": "#351000", "outline": "#8d7168",
+            "primary": "#9b2f00", "error-container": "#ffdad6", "on-primary-fixed": "#390c00",
+            "tertiary": "#3650a0", "on-primary-fixed-variant": "#832600", "secondary": "#944a23",
+            "surface-variant": "#d8e3fb", "inverse-primary": "#ffb59d", "surface-container-lowest": "#ffffff",
+            "on-surface": "#111c2d", "tertiary-fixed-dim": "#b6c4ff", "on-tertiary-fixed-variant": "#264191",
+            "terracotta-hover": "#9A3412", "on-surface-variant": "#59413a", "error": "#ba1a1a",
+            "on-secondary-container": "#76340e", "inverse-on-surface": "#ecf1ff", "on-background": "#111c2d",
+            "surface-container": "#e7eeff", "background": "#f9f9ff", "on-primary-container": "#ffece7"
+          },
+          borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" },
+          spacing: { "margin": "1rem", "gutter": "1.25rem", "space-md": "1rem", "gutter-desktop": "1.5rem", "space-lg": "1.5rem", "margin-desktop": "3rem", "space-sm": "0.5rem", "space-xl": "2.5rem", "space-xs": "0.25rem", "margin-tablet": "2rem" }
         }
       }
-
-      function appendUserMessage(text) {
-        const timeNow = new Date().toLocaleTimeString('id-ID', { hour: '2-digit', minute: '2-digit' }) + ' WIB';
-        const msgDiv = document.createElement('div');
-        msgDiv.className = 'flex items-start justify-end gap-space-md animate-fade-in';
-        msgDiv.innerHTML = `
-          <div class="max-w-[80%] bg-primary text-on-primary p-space-md rounded-2xl rounded-tr-sm shadow-md">
-            <p class="font-body-md text-body-md leading-relaxed">${escapeHtml(text)}</p>
-            <span class="block text-right font-label-sm text-label-sm text-primary-fixed opacity-80 mt-1">${timeNow}</span>
-          </div>
-          <div class="w-10 h-10 rounded-full bg-surface-container-highest text-primary flex items-center justify-center shrink-0 shadow-sm font-headline-sm text-headline-sm">
-            <span class="material-symbols-outlined text-[20px]">person</span>
-          </div>
-        `;
-        chatFlow.appendChild(msgDiv);
-        scrollToBottom();
-      }
-
-      function appendAiResponse(itineraryTitle, previewText, sponsorHighlight) {
-        const msgDiv = document.createElement('div');
-        msgDiv.className = 'flex items-start gap-space-md animate-fade-in';
-        msgDiv.innerHTML = `
-          <div class="w-10 h-10 rounded-full bg-primary text-on-primary flex items-center justify-center shrink-0 shadow-sm">
-            <span class="material-symbols-outlined text-[20px]">smart_toy</span>
-          </div>
-          <div class="w-full max-w-[92%] bg-surface-container-lowest p-space-md md:p-space-lg rounded-2xl rounded-tl-sm shadow-md space-y-space-sm text-on-surface">
-            <div class="flex items-center justify-between pb-space-xs border-b border-border-warm/40">
-              <span class="font-headline-sm text-headline-sm text-primary">${escapeHtml(itineraryTitle)}</span>
-              <span class="px-2 py-0.5 rounded-full bg-terracotta-soft text-primary font-label-sm text-label-sm font-bold">Rekomendasi Terkini</span>
-            </div>
-            <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">${escapeHtml(previewText)}</p>
-            <div class="p-space-sm rounded-lg bg-surface-cream-subtle border-l-4 border-sogan-gold flex items-center justify-between gap-space-sm">
-              <div class="flex items-center gap-space-xs">
-                <span class="material-symbols-outlined text-sogan-gold text-[20px]">star</span>
-                <span class="font-label-md text-label-md text-on-surface font-semibold">${escapeHtml(sponsorHighlight)}</span>
-              </div>
-              <span class="px-2 py-0.5 rounded bg-sogan-gold text-on-primary font-label-sm text-[11px] font-bold">Mitra Resmi</span>
-            </div>
-            <div class="pt-2 flex items-center gap-3">
-              <button type="button" class="px-3 py-1.5 rounded-full bg-primary text-on-primary font-label-sm text-label-sm hover:bg-terracotta-hover transition-colors shadow-sm">Simpan Jadwal</button>
-              <button type="button" class="px-3 py-1.5 rounded-full bg-surface-cream-subtle text-primary font-label-sm text-label-sm hover:bg-terracotta-soft transition-colors">Lihat Rute Peta</button>
-            </div>
-          </div>
-        `;
-        chatFlow.appendChild(msgDiv);
-        scrollToBottom();
-      }
-
-      function escapeHtml(string) {
-        const div = document.createElement('div');
-        div.innerText = string;
-        return div.innerHTML;
-      }
-
-      if (chatForm && chatInput) {
-        chatForm.addEventListener('submit', (e) => {
-          e.preventDefault();
-          const query = chatInput.value.trim();
-          if (!query) return;
-
-          appendUserMessage(query);
-          chatInput.value = '';
-
-          const loadingIndicator = document.createElement('div');
-          loadingIndicator.id = 'aiTypingIndicator';
-          loadingIndicator.className = 'flex items-center gap-2 text-on-surface-variant font-label-md text-label-md pl-14';
-          loadingIndicator.innerHTML = `
-            <span class="material-symbols-outlined text-primary text-[18px] animate-spin">sync</span>
-            <span>Solo Smart AI sedang menganalisis titik koordinat & preferensi...</span>
-          `;
-          chatFlow.appendChild(loadingIndicator);
-          scrollToBottom();
-
-          setTimeout(() => {
-            const ind = document.getElementById('aiTypingIndicator');
-            if (ind) ind.remove();
-
-            if (query.toLowerCase().includes('batik') || query.toLowerCase().includes('oleh')) {
-              appendAiResponse(
-                'Panduan Sentra Batik Autentik & Kuliner Tradisional',
-                'Untuk batik tulis murni bersejarah, kami merekomendasikan Kampung Batik Kauman di Jalan Wijaya Kusuma. Untuk kuliner malam khas, nikmati Nasi Liwet Yu Sani di Solo Baru atau Gudeg Ceker Margoyudan.',
-                'Diskon Eksklusif 15% di Rumah Batik Danar Hadi Solo'
-              );
-            } else if (query.toLowerCase().includes('sejarah') || query.toLowerCase().includes('keraton')) {
-              appendAiResponse(
-                'Rute Napak Tilas Monarki Surakarta 1 Hari',
-                'Mulai pukul 09.00 di Museum Keraton Kasunanan (Pagelaran Sasana Sewaka), berlanjut pukul 13.00 ke Pura Mangkunegaran, diakhiri minum teh petang di Pracima Tuin.',
-                'Tur Privat Dipandu Abdi Dalem Keraton Kasunanan'
-              );
-            } else {
-              appendAiResponse(
-                'Rencana Perjalanan Kustom Surakarta',
-                'Jadwal telah disesuaikan berdasarkan kata kunci pencarian Anda. Waktu perjalanan dirancang efisien memanfaatkan feeder dan halte BST.',
-                'Voucher Spesial Makan Siang di Selat Solo Mbak Lies'
-              );
-            }
-          }, 900);
-        });
-      }
-
-      if (clearBtn && chatInput) {
-        clearBtn.addEventListener('click', () => {
-          chatInput.value = '';
-          chatInput.focus();
-        });
-      }
-
-      if (resetBtn && chatFlow) {
-        resetBtn.addEventListener('click', () => {
-          if (confirm('Kembalikan obrolan ke awal?')) {
-            const initialElements = chatFlow.querySelectorAll(':scope > div');
-            if (initialElements.length > 3) {
-              for (let i = 3; i < initialElements.length; i++) {
-                initialElements[i].remove();
-              }
-            }
-          }
-        });
-      }
-
-      quickChips.forEach(chip => {
-        chip.addEventListener('click', () => {
-          const prompt = chip.getAttribute('data-prompt');
-          if (chatInput && prompt) {
-            chatInput.value = prompt;
-            chatForm.dispatchEvent(new Event('submit'));
-          }
-        });
-      });
-    })();
+    };
   </script>
-</div></main><nav class="lg:hidden fixed bottom-0 left-0 right-0 z-50 bg-surface-container-lowest/95 backdrop-blur-xl shadow-[0_-2px_12px_rgba(0,0,0,0.06)] px-space-sm py-space-xs" data-active-classes="bg-primary-container text-on-primary-container font-label-sm rounded-xl py-space-xs shadow-sm"><div class="max-w-md mx-auto grid grid-cols-5 gap-space-xs"><a class="flex flex-col items-center justify-center py-space-xs rounded-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="home" href="home.html"><span class="material-symbols-outlined text-[22px]">temple_buddhist</span><span class="font-label-sm text-label-sm mt-0.5">Home</span></a><a class="flex flex-col items-center justify-center py-space-xs rounded-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="kalender-budaya" href="kalender-budaya.html"><span class="material-symbols-outlined text-[22px]">calendar_month</span><span class="font-label-sm text-label-sm mt-0.5">Budaya</span></a><a class="flex flex-col items-center justify-center py-space-xs rounded-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="marketplace" href="marketplace.html"><span class="material-symbols-outlined text-[22px]">shopping_bag</span><span class="font-label-sm text-label-sm mt-0.5">Pasar</span></a><a class="flex flex-col items-center justify-center py-space-xs rounded-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="info-wisata" href="info-wisata.html"><span class="material-symbols-outlined text-[22px]">map</span><span class="font-label-sm text-label-sm mt-0.5">Wisata</span></a><a aria-current="page" class="flex flex-col items-center justify-center transition-colors bg-primary-container text-on-primary-container font-label-sm rounded-xl py-space-xs shadow-sm" data-path="ai-chatbot" href="ai-chatbot.html"><span class="material-symbols-outlined text-[22px]">smart_toy</span><span class="font-label-sm text-label-sm mt-0.5">AI Solo</span></a></div></nav><footer class="w-full bg-surface-cream-subtle pt-space-xl pb-16 lg:pb-space-xl shadow-[0_-1px_6px_rgba(0,0,0,0.02)]"><div class="max-w-[1280px] mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop"><div class="grid grid-cols-1 md:grid-cols-4 gap-space-lg mb-space-xl"><div><div class="flex items-center gap-space-sm mb-space-sm"><img alt="Surakarta's Culture Logo" class="h-7 w-auto object-contain" src="p.jpg"/><span class="font-headline-sm text-headline-sm text-primary">Surakarta's Culture</span></div><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">Portal terpadu pelestarian warisan tradisi, agenda festival, kriya batik, serta panduan pariwisata adiluhung Kota Surakarta Hadiningrat.</p></div><div><h4 class="font-headline-sm text-headline-sm text-on-surface mb-space-md">Jelajah Warisan</h4><ul class="space-y-space-sm font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-primary transition-colors" data-path="kalender-budaya" href="kalender-budaya.html">Kirab Pusaka &amp; Sekaten</a></li><li><a class="hover:text-primary transition-colors" data-path="info-wisata" href="info-wisata.html">Kraton &amp; Pura Mangkunegaran</a></li><li><a class="hover:text-primary transition-colors" data-path="marketplace" href="marketplace.html">Kampung Batik Kauman &amp; Laweyan</a></li><li><a class="hover:text-primary transition-colors" data-path="kalender-budaya" href="kalender-budaya.html">Wayang Orang Sriwedari</a></li></ul></div><div><h4 class="font-headline-sm text-headline-sm text-on-surface mb-space-md">Layanan Digital</h4><ul class="space-y-space-sm font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-primary transition-colors" data-path="ai-chatbot" href="ai-chatbot.html">Asisten Pemandu AI Solo</a></li><li><a class="hover:text-primary transition-colors" data-path="marketplace" href="marketplace.html">Sentra Pengrajin Lokal</a></li><li><a class="hover:text-primary transition-colors" data-path="info-wisata" href="info-wisata.html">Rute &amp; Transportasi BST</a></li><li><a class="hover:text-primary transition-colors" data-path="home" href="home.html">Pusat Bantuan Wisatawan</a></li></ul></div><div><h4 class="font-headline-sm text-headline-sm text-on-surface mb-space-md">Pusat Informasi</h4><p class="font-body-sm text-body-sm text-on-surface-variant mb-space-sm">Dinas Kebudayaan dan Pariwisata Kota Surakarta<br/>Jl. Brigjend Slamet Riyadi, Surakarta, Jawa Tengah</p><div class="flex items-center gap-space-sm"><span class="w-3 h-3 rounded-full bg-sogan-gold inline-block"></span><span class="font-label-md text-label-md text-on-surface">Solo: The Spirit of Java</span></div></div></div><div class="pt-space-lg flex flex-col sm:flex-row items-center justify-between gap-space-md text-on-surface-variant font-label-md text-label-md"><p>© 2025 Surakarta's Culture. Dilindungi Undang-Undang Republik Indonesia.</p><div class="flex items-center gap-space-lg"><a class="hover:text-primary transition-colors" data-path="home" href="home.html">Privasi</a><a class="hover:text-primary transition-colors" data-path="home" href="home.html">Ketentuan Layanan</a><a class="hover:text-primary transition-colors" data-path="ai-chatbot" href="ai-chatbot.html">Pusat Bantuan</a></div></div></div></footer></body></html>
+</head>
+<body class="bg-canvas-cream font-body-md text-body-md text-on-surface antialiased">
+  <header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]">
+    <div class="h-20 max-w-[1280px] mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop flex items-center justify-between">
+      <div class="flex items-center gap-space-md">
+        <img alt="Surakarta's Culture Logo" class="h-8 w-auto object-contain" src="p.jpg"/>
+        <div class="flex flex-col">
+          <span class="font-headline-sm text-headline-sm text-primary tracking-tight">Surakarta's Culture</span>
+          <span class="hidden sm:inline-block font-label-sm text-label-sm text-sogan-gold tracking-wider uppercase">Hub Kebudayaan Kota Solo</span>
+        </div>
+      </div>
+      <nav class="hidden lg:flex items-center gap-space-lg">
+        <a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" href="home.html">Home</a>
+        <a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" href="kalender-budaya.html">Kalender Budaya</a>
+        <a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" href="marketplace.html">Marketplace</a>
+        <a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" href="info-wisata.html">Info Wisata</a>
+        <a aria-current="page" class="transition-colors bg-primary-container text-on-primary-container font-label-md rounded-full px-space-md py-space-xs shadow-sm" href="ai-chatbot.html">AI Chatbot</a>
+      </nav>
+      <div class="flex items-center gap-space-md">
+        <a class="hidden sm:inline-flex items-center justify-center h-10 px-space-md rounded-full bg-surface-cream-subtle text-secondary font-label-md text-label-md hover:bg-terracotta-soft hover:text-terracotta-hover transition-colors" href="marketplace.html">
+          <span class="material-symbols-outlined text-[18px] mr-space-xs">storefront</span>Jelajah Solo
+        </a>
+        <div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shadow-sm">
+          <span class="material-symbols-outlined text-on-primary text-[18px]">person</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="w-full pt-20 bg-canvas-cream pb-24 lg:pb-0">
+    <div class="flex flex-col w-full">
+      <section class="relative w-full overflow-hidden bg-gradient-to-b from-surface-cream-subtle via-canvas-cream to-canvas-cream py-space-xl">
+        <div class="absolute -top-24 right-0 w-96 h-96 rounded-full bg-terracotta-soft/60 blur-3xl pointer-events-none"></div>
+        <div class="absolute top-1/2 -left-20 w-80 h-80 rounded-full bg-sogan-gold/10 blur-2xl pointer-events-none"></div>
+        <div class="max-w-[1280px] mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop relative z-10">
+          <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-space-lg mb-space-lg">
+            <div class="max-w-2xl">
+              <div class="inline-flex items-center gap-space-xs px-space-md py-1 rounded-full bg-terracotta-soft text-primary font-label-sm text-label-sm uppercase tracking-wider mb-space-sm shadow-sm">
+                <span class="material-symbols-outlined text-[16px]">auto_awesome</span>
+                Kecerdasan Budaya Digital
+              </div>
+              <h1 class="font-display-lg text-headline-xl lg:text-display-lg text-primary tracking-tight">Solo Smart Itinerary AI</h1>
+              <p class="font-body-xl text-body-xl text-on-surface-variant mt-space-xs leading-relaxed">
+                Asisten cerdas pembuat jadwal liburan instan di Surakarta berdasarkan budget, waktu, dan preferensi budayamu.
+              </p>
+            </div>
+            <div class="flex flex-wrap items-center gap-space-sm bg-surface-container-lowest p-space-sm rounded-xl shadow-sm">
+              <div class="flex items-center gap-space-xs text-sogan-gold">
+                <span class="material-symbols-outlined text-[18px]">verified</span>
+                <span class="font-label-md text-label-md">Model Terkurasi 2025</span>
+              </div>
+              <span class="text-outline-variant">•</span>
+              <span class="font-label-md text-label-md text-on-surface-variant">Data Pariwisata Resmi Surakarta</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="w-full bg-surface-cream-subtle pt-space-xl pb-16 lg:pb-space-xl shadow-[0_-1px_6px_rgba(0,0,0,0.02)]">
+    <div class="max-w-[1280px] mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop">
+      <div class="pt-space-lg flex flex-col sm:flex-row items-center justify-between gap-space-md text-on-surface-variant font-label-md text-label-md">
+        <p>© 2025 Surakarta's Culture. Dilindungi Undang-Undang Republik Indonesia.</p>
+        <div class="flex items-center gap-space-lg">
+          <a class="hover:text-primary transition-colors" href="home.html">Privasi</a>
+          <a class="hover:text-primary transition-colors" href="home.html">Ketentuan Layanan</a>
+          <a class="hover:text-primary transition-colors" href="ai-chatbot.html">Pusat Bantuan</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
