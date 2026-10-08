@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    { "source": "/home", "destination": "/home.html" },
+    { "source": "/kalender-budaya", "destination": "/kalender-budaya.html" },
+    { "source": "/marketplace", "destination": "/marketplace.html" },
+    { "source": "/info-wisata", "destination": "/info-wisata.html" },
+    { "source": "/ai-chatbot", "destination": "/ai-chatbot.html" }
+  ]
+}

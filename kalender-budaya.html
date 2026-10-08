@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+
+<html lang="id"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"primary-fixed-dim":"#ffb59d","tertiary-container":"#5069bb","surface":"#f9f9ff","on-tertiary-fixed":"#00164e","surface-dim":"#cfdaf2","inverse-surface":"#263143","terracotta-soft":"#FFEDD5","surface-container-low":"#f0f3ff","secondary-fixed":"#ffdbcc","border-warm":"#E7DFD5","primary-fixed":"#ffdbd0","outline-variant":"#e1bfb5","on-error":"#ffffff","on-primary":"#ffffff","secondary-container":"#fd9e70","surface-container-highest":"#d8e3fb","secondary-fixed-dim":"#ffb693","canvas-cream":"#FAF8F5","on-tertiary-container":"#efefff","batik-indigo":"#1E3A8A","on-error-container":"#93000a","sogan-gold":"#B45309","surface-tint":"#ac3400","on-secondary-fixed-variant":"#76330d","on-tertiary":"#ffffff","tertiary-fixed":"#dce1ff","primary-container":"#c2410c","surface-container-high":"#dee8ff","surface-bright":"#f9f9ff","on-secondary":"#ffffff","surface-cream-subtle":"#F4EFEA","on-secondary-fixed":"#351000","outline":"#8d7168","primary":"#9b2f00","error-container":"#ffdad6","on-primary-fixed":"#390c00","tertiary":"#3650a0","on-primary-fixed-variant":"#832600","secondary":"#944a23","surface-variant":"#d8e3fb","inverse-primary":"#ffb59d","surface-container-lowest":"#ffffff","on-surface":"#111c2d","tertiary-fixed-dim":"#b6c4ff","on-tertiary-fixed-variant":"#264191","terracotta-hover":"#9A3412","on-surface-variant":"#59413a","error":"#ba1a1a","on-secondary-container":"#76340e","inverse-on-surface":"#ecf1ff","on-background":"#111c2d","surface-container":"#e7eeff","background":"#f9f9ff","on-primary-container":"#ffece7"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"margin":"1rem","gutter":"1.25rem","space-md":"1rem","gutter-desktop":"1.5rem","space-lg":"1.5rem","margin-desktop":"3rem","space-sm":"0.5rem","space-xl":"2.5rem","space-xs":"0.25rem","margin-tablet":"2rem"},fontFamily:{"headline-xl":["Plus Jakarta Sans"],"label-lg":["Inter"],"headline-md":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"body-md":["Inter"],"label-md":["Inter"],"headline-sm":["Plus Jakarta Sans"],"display-lg-mobile":["Plus Jakarta Sans"],"display-lg":["Plus Jakarta Sans"],"body-sm":["Inter"],"headline-xl-mobile":["Plus Jakarta Sans"],"body-xl":["Inter"],"label-sm":["Inter"]},fontSize:{"headline-xl":["2.5rem",{"lineHeight":"3rem","letterSpacing":"-0.02em","fontWeight":"700"}],"label-lg":["0.9375rem",{"lineHeight":"1.25rem","letterSpacing":"0.01em","fontWeight":"600"}],"headline-md":["1.5rem",{"lineHeight":"2rem","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-lg":["1.875rem",{"lineHeight":"2.375rem","letterSpacing":"-0.015em","fontWeight":"700"}],"body-md":["1rem",{"lineHeight":"1.625rem","fontWeight":"400"}],"label-md":["0.8125rem",{"lineHeight":"1.125rem","letterSpacing":"0.02em","fontWeight":"600"}],"headline-sm":["1.25rem",{"lineHeight":"1.75rem","fontWeight":"600"}],"display-lg-mobile":["2.25rem",{"lineHeight":"2.75rem","letterSpacing":"-0.02em","fontWeight":"800"}],"display-lg":["3.5rem",{"lineHeight":"4rem","letterSpacing":"-0.025em","fontWeight":"800"}],"body-sm":["0.875rem",{"lineHeight":"1.375rem","fontWeight":"400"}],"headline-xl-mobile":["1.75rem",{"lineHeight":"2.25rem","letterSpacing":"-0.015em","fontWeight":"700"}],"body-xl":["1.125rem",{"lineHeight":"1.875rem","fontWeight":"400"}],"label-sm":["0.6875rem",{"lineHeight":"1rem","letterSpacing":"0.04em","fontWeight":"700"}]}}}};</script></head><body class="bg-canvas-cream font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-[1280px] mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop flex items-center justify-between"><div class="flex items-center gap-space-md"><img alt="Surakarta's Culture Logo" class="h-8 w-auto object-contain" src="p.jpg"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight">Surakarta's Culture</span><span class="hidden sm:inline-block font-label-sm text-label-sm text-sogan-gold tracking-wider uppercase">Hub Kebudayaan Kota Solo</span></div></div><nav class="hidden lg:flex items-center gap-space-lg" data-active-classes="bg-primary-container text-on-primary-container font-label-md rounded-full px-space-md py-space-xs shadow-sm"><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="home" href="home.php">Home</a><a aria-current="page" class="transition-colors bg-primary-container text-on-primary-container font-label-md rounded-full px-space-md py-space-xs shadow-sm" data-path="kalender-budaya" href="kalender-budaya.php">Kalender Budaya</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="marketplace" href="marketplace.php">Marketplace</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="info-wisata" href="info-wisata.php">Info Wisata</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="ai-chatbot" href="ai-chatbot.php">AI Chatbot</a></nav><div class="flex items-center gap-space-md"><a class="hidden sm:inline-flex items-center justify-center h-10 px-space-md rounded-full bg-surface-cream-subtle text-secondary font-label-md text-label-md hover:bg-terracotta-soft hover:text-terracotta-hover transition-colors" data-path="marketplace" href="marketplace.php"><span class="material-symbols-outlined text-[18px] mr-space-xs">storefront</span>Jelajah Solo</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shadow-sm"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-canvas-cream pb-24 lg:pb-0"><div class="flex flex-col w-full">
+<div class="max-w-[1280px] w-full mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop py-space-lg lg:py-space-xl flex flex-col gap-space-xl">
+<!-- Bagian Atas: Dua Kolom (Kalender Interaktif & Panel Kurasi Resmi) -->
+<section class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg lg:gap-space-xl items-start">
+<!-- Kolom Kiri: Kalender Bulanan Interaktif -->
+<div class="lg:col-span-7 bg-surface-container-lowest p-space-md sm:p-space-lg rounded-2xl shadow-sm">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm mb-space-lg">
+<div>
+<span class="inline-flex items-center gap-space-xs font-label-sm text-label-sm uppercase tracking-wider text-sogan-gold">
+<span class="w-2 h-2 rounded-full bg-sogan-gold animate-pulse"></span>
+              Sinkronisasi Resmi Kraton &amp; Disbudpar
+            </span>
+<h2 class="font-headline-md text-headline-md text-on-surface mt-0.5" id="calendar-date-display">
+              Rabu, 15 Oktober 2025
+            </h2>
+</div>
+<!-- Navigasi Bulan -->
+<div class="flex items-center gap-space-xs bg-surface-cream-subtle px-space-xs py-space-xs rounded-full">
+<button aria-label="Bulan sebelumnya" class="w-8 h-8 rounded-full flex items-center justify-center text-on-surface hover:bg-surface-container-lowest transition-colors" id="prev-month-btn">
+<span class="material-symbols-outlined text-[18px]">chevron_left</span>
+</button>
+<span class="font-label-md text-label-md text-primary font-semibold px-space-sm" id="current-month-display">
+              Oktober 2025
+            </span>
+<button aria-label="Bulan berikutnya" class="w-8 h-8 rounded-full flex items-center justify-center text-on-surface hover:bg-surface-container-lowest transition-colors" id="next-month-btn">
+<span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- Kalender Grid Header -->
+<div class="grid grid-cols-7 gap-1 sm:gap-2 text-center mb-space-sm">
+<span class="font-label-sm text-label-sm text-primary font-semibold py-1">Min</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant py-1">Sen</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant py-1">Sel</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant py-1">Rab</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant py-1">Kam</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant py-1">Jum</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant py-1">Sab</span>
+</div>
+<!-- Kalender Grid Hari -->
+<div class="grid grid-cols-7 gap-1 sm:gap-2" id="calendar-days-grid">
+<!-- Populated by JS -->
+</div>
+<!-- Kalender Legend & Quick Status -->
+<div class="mt-space-lg pt-space-md bg-surface-cream-subtle/50 rounded-xl p-space-sm flex flex-wrap items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-md font-label-sm text-label-sm text-on-surface-variant">
+<span class="inline-flex items-center gap-1.5">
+<span class="w-2.5 h-2.5 rounded-full bg-primary"></span> Terpilih
+            </span>
+<span class="inline-flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-sogan-gold"></span> Memiliki Event
+            </span>
+<span class="inline-flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-batik-indigo"></span> Sakral Keraton
+            </span>
+</div>
+<button class="font-label-md text-label-md text-primary hover:text-terracotta-hover font-medium" id="today-shortcut-btn">
+            Kembali ke Hari Ini
+          </button>
+</div>
+</div>
+<!-- Kolom Kanan: Panel Kurasi & Info Cuaca/Waktu Kunjungan -->
+<div class="lg:col-span-5 flex flex-col gap-space-md">
+<!-- Kartu Kurasi Utama -->
+<div class="bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm flex flex-col relative overflow-hidden">
+<div class="absolute -right-12 -top-12 w-48 h-48 bg-terracotta-soft/50 rounded-full blur-2xl pointer-events-none"></div>
+<div class="flex items-center gap-space-sm mb-space-sm">
+<span class="w-8 h-8 rounded-full bg-terracotta-soft text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+</span>
+<span class="font-label-md text-label-md font-semibold text-secondary">Kurasi Budaya Adiluhung</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-sm">
+            Panduan Festival &amp; Ritual Surakarta
+          </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Kalender Budaya berfungsi sebagai panduan jadwal festival sakral keraton, pentas wayang orang Sriwedari, kirab pusaka, hingga perhelatan kontemporer Solo International Performing Arts (SIPA). Seluruh data diselaraskan langsung dengan Dinas Kebudayaan dan Keraton Surakarta.
+          </p>
+<div class="mt-space-md grid grid-cols-2 gap-space-sm">
+<div class="bg-surface-cream-subtle p-space-sm rounded-xl">
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Status Sinkronisasi</span>
+<span class="font-label-md text-label-md text-primary font-semibold flex items-center gap-1 mt-0.5">
+<span class="material-symbols-outlined text-[14px]">sync</span> Real-Time Terverifikasi
+              </span>
+</div>
+<div class="bg-surface-cream-subtle p-space-sm rounded-xl">
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Penanggalan Jawa</span>
+<span class="font-label-md text-label-md text-sogan-gold font-semibold flex items-center gap-1 mt-0.5">
+<span class="material-symbols-outlined text-[14px]">auto_stories</span> Rebo Wage, Bakda Mulud
+              </span>
+</div>
+</div>
+</div>
+<!-- Info Cuaca & Rekomendasi Jam Kunjungan -->
+<div class="bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<!-- Cuaca Surakarta -->
+<div class="flex flex-col">
+<div class="flex items-center gap-space-xs text-on-surface-variant mb-space-xs">
+<span class="material-symbols-outlined text-sogan-gold text-[20px]">partly_cloudy_day</span>
+<span class="font-label-md text-label-md font-semibold">Prakiraan Cuaca Solo</span>
+</div>
+<div class="flex items-baseline gap-space-xs mt-1">
+<span class="font-headline-md text-headline-md text-on-surface font-bold">29°C</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Cerah Berawan</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1.5 leading-normal">
+              Kelembapan 72%. Udara sejuk bersahabat untuk kegiatan ruang terbuka di Benteng Vastenburg.
+            </p>
+</div>
+<!-- Waktu Kunjungan Terbaik -->
+<div class="flex flex-col sm:border-l-0 bg-surface-cream-subtle p-space-sm rounded-xl">
+<div class="flex items-center gap-space-xs text-primary mb-space-xs">
+<span class="material-symbols-outlined text-[18px]">recommend</span>
+<span class="font-label-md text-label-md font-semibold">Waktu Terbaik Datang</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-on-surface mt-0.5">18:45 – 22:30 WIB</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 leading-normal">
+              Ideal menghindari terik matahari, menikmati kuliner malam Selat Solo sebelum pementasan.
+            </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Bagian Bawah: Agenda Kegiatan Budaya Dinamis -->
+<section class="flex flex-col gap-space-lg">
+<div class="flex flex-col sm:flex-row sm:items-end justify-between gap-space-sm">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold">Agenda Terjadwal</span>
+<h2 class="font-headline-xl text-headline-xl text-on-surface tracking-tight" id="dynamic-section-title">
+            Kegiatan Budaya di 15 Oktober 2025
+          </h2>
+</div>
+<div class="flex items-center gap-space-xs text-on-surface-variant font-label-md text-label-md bg-surface-container-lowest px-space-md py-space-xs rounded-full shadow-sm">
+<span class="material-symbols-outlined text-primary text-[18px]">event_available</span>
+<span id="events-count-badge">4 Pergelaran Tersedia</span>
+</div>
+</div>
+<!-- Container Kegiatan -->
+<div class="flex flex-col gap-space-lg">
+<!-- Slot Teratas: Event Sponsor Berlabel Badge Seragam -->
+<article class="bg-surface-container-lowest rounded-2xl shadow-md overflow-hidden relative group">
+<div class="grid grid-cols-1 lg:grid-cols-12">
+<!-- Poster Sponsor -->
+<div class="lg:col-span-5 relative min-h-[260px] lg:min-h-full">
+<img class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500" data-alt="Solo International Performing Arts stage performance with dynamic modern cultural dancers illuminated by deep dramatic stage lights and backdrop of historic Benteng Vastenburg brick fortress under the evening sky, warm terracotta accents and deep indigo shadows" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD4CDjIMRhbcF1nb_RbUCvC8H3Vy2i2sZHDgR6xdI-NvLLobXUE0_wgkKg8rnb4XzYaKSOSa_BwakPV1ZqpWDCjkG_sDimb_FkqAH7vxCt4Tx3xjgg8HmSN27t14D4tXdBpo3wllLoQuxFK-8WFE2qIrtVJl5qzHdmztSZeTSOYcq1ZcuMuBtNI1uttZXvQez3anbP0hkoG85Qjyda28SYaIiaUBRiema8KCuUM4qWb"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/80 via-transparent to-transparent lg:hidden"></div>
+<!-- Badge Sponsor Seragam -->
+<div class="absolute top-space-md left-space-md z-10 flex items-center gap-space-xs">
+<span class="bg-sogan-gold text-on-primary font-label-sm text-label-sm uppercase tracking-wider px-space-md py-1 rounded-full shadow-sm flex items-center gap-1 font-bold">
+<span class="material-symbols-outlined text-[14px]">star</span> Sponsor
+                </span>
+<span class="bg-surface-container-lowest/90 backdrop-blur-md text-primary font-label-sm text-label-sm px-space-sm py-1 rounded-full font-semibold">
+                  Festival Internasional
+                </span>
+</div>
+</div>
+<!-- Konten Sponsor -->
+<div class="lg:col-span-7 p-space-md sm:p-space-lg flex flex-col justify-between">
+<div>
+<div class="flex flex-wrap items-center gap-space-sm text-on-surface-variant font-label-md text-label-md mb-space-xs">
+<span class="inline-flex items-center gap-1 text-primary font-semibold">
+<span class="material-symbols-outlined text-[16px]">schedule</span> 19:30 WIB – Selesai
+                  </span>
+<span>•</span>
+<span class="inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">pin_drop</span> Benteng Vastenburg, Kedung Lumbu
+                  </span>
+</div>
+<h3 class="font-headline-lg text-headline-lg text-on-surface group-hover:text-primary transition-colors">
+                  Solo International Performing Arts (SIPA 2025)
+                </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs leading-relaxed">
+                  Perhelatan seni pertunjukan mahakarya lintas benua yang menyatukan delegasi tari, musik, teater dunia dalam panggung megah berlatar arsitektur benteng kolonial Solo.
+                </p>
+<div class="mt-space-md flex flex-wrap items-center gap-space-md">
+<div class="bg-surface-cream-subtle px-space-md py-space-xs rounded-xl flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[18px]">confirmation_number</span>
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Status Masuk</span>
+<span class="font-label-md text-label-md text-on-surface font-bold">Rp 0 (Gratis Registrasi)</span>
+</div>
+</div>
+<div class="bg-surface-cream-subtle px-space-md py-space-xs rounded-xl flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-sogan-gold text-[18px]">group</span>
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Audiens</span>
+<span class="font-label-md text-label-md text-on-surface font-semibold">Umum / Terbuka Wisatawan</span>
+</div>
+</div>
+</div>
+</div>
+<div class="mt-space-lg pt-space-md flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-space-md">
+<span class="font-label-sm text-label-sm text-on-surface-variant">
+                  Diselenggarakan oleh Sekretariat SIPA bersama Kemendikbudristek &amp; Disbudpar Solo
+                </span>
+<button class="bg-primary text-on-primary hover:bg-terracotta-hover font-label-md text-label-md px-space-lg py-3 rounded-full font-semibold shadow-sm flex items-center justify-center gap-space-xs transition-all cursor-pointer" onclick="openEventDetail('sipa')">
+<span>Registrasi &amp; Detail Kegiatan</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</article>
+<!-- Daftar Kartu Event Reguler -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<!-- Event 1: Pentas Wayang Orang Sriwedari -->
+<article class="bg-surface-container-lowest rounded-2xl shadow-sm overflow-hidden flex flex-col group hover:shadow-md transition-shadow">
+<div class="relative h-56 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Authentic traditional Javanese dancers performing Wayang Orang Sriwedari in elaborate gilded costumes, Gatotkaca warrior with ornate wings and intricate batik sarong on traditional stage in Solo, soft vintage warm illumination" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBIIamDVVU4Nm0qmF_3g_g32DBEsokTESHdE3nec7ANHk62JBsu7SDeR-LMvreriuNU8J3wC9pbqSORyF1Y8BFj5dG60hW9uQSTMLZMRaEePiv-b5htTK9XQdiGeYTnufulYHfP2xNVdn4RpdvZ1Swk46KLCS3U9twV0UDxQzRro1H224npArgPZyuln7KWJBwqHszt_7p9jnyTDciz-oK_AixwgKKG7doJ0bdTQhR1"/>
+<span class="absolute top-space-sm left-space-sm bg-primary text-on-primary font-label-sm text-label-sm px-space-sm py-0.5 rounded-full font-semibold shadow-sm">
+                Seni Tari &amp; Teater
+              </span>
+<span class="absolute bottom-space-sm right-space-sm bg-surface-container-lowest/90 backdrop-blur-md text-on-surface font-label-sm text-label-sm px-space-sm py-0.5 rounded-full font-bold">
+                Rp 20.000
+              </span>
+</div>
+<div class="p-space-md flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-1 font-label-sm text-label-sm text-primary mb-1">
+<span class="material-symbols-outlined text-[16px]">schedule</span> 20:00 – 22:30 WIB
+                </div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">
+                  Pentas Wayang Orang Sriwedari: Lakon Gatotkaca Gugur
+                </h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 line-clamp-2">
+                  Kisah kepahlawanan ksatria Pringgandani dalam membela kebenaran dengan iringan gamelan live klasik Surakarta.
+                </p>
+<div class="mt-space-sm flex flex-col gap-1 text-on-surface-variant font-label-sm text-label-sm">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">public</span> Semua Umur / Wisatawan Asing &amp; Domestik
+                  </span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">location_on</span> Gedung Wayang Orang Sriwedari
+                  </span>
+</div>
+</div>
+<div class="mt-space-md pt-space-sm">
+<button class="w-full bg-surface-cream-subtle hover:bg-terracotta-soft text-primary font-label-md text-label-md py-2.5 rounded-full font-semibold flex items-center justify-center gap-1 transition-colors cursor-pointer" onclick="openEventDetail('wayang')">
+<span>Baca selengkapnya</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Event 2: Kirab Pusaka Malam 1 Suro Keraton Surakarta -->
+<article class="bg-surface-container-lowest rounded-2xl shadow-sm overflow-hidden flex flex-col group hover:shadow-md transition-shadow">
+<div class="relative h-56 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Solemn Javanese royal palace midnight procession in Kraton Surakarta Hadiningrat, royal courtiers in traditional black beskap attire carrying sacred heirlooms by candlelight, sacred white water buffalo Kebo Bule leading quietly on red brick pavement" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCXTzpmDx69-8hTEo7GNEvAedzuLswdMz4_mjnsCAd6jVkhInhVcP9Dy_sg7lDO7BKqpdhyP0qvNoD3_GvlPP7VxRjc22fcwvfLWkawRkaOAN2Nd7LrNmRK3MeOiiDMIM1C5ZYdSDj-0Fcj_BxMX6KWOVZKGLix7pu-Nyjr4Zr2i1YUS3N1pRjMv2_dmDKPWnyX2IhMxC1rmTjrDG7vj89s3v4DFOqON3FJC3vV2tPa"/>
+<span class="absolute top-space-sm left-space-sm bg-batik-indigo text-on-primary font-label-sm text-label-sm px-space-sm py-0.5 rounded-full font-semibold shadow-sm">
+                Tradisi Sakral Keraton
+              </span>
+<span class="absolute bottom-space-sm right-space-sm bg-surface-container-lowest/90 backdrop-blur-md text-sogan-gold font-label-sm text-label-sm px-space-sm py-0.5 rounded-full font-bold">
+                Akses Terbuka Bebas
+              </span>
+</div>
+<div class="p-space-md flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-1 font-label-sm text-label-sm text-batik-indigo mb-1">
+<span class="material-symbols-outlined text-[16px]">schedule</span> 23:00 WIB – Dini Hari
+                </div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">
+                  Kirab Pusaka Malam 1 Suro Keraton Surakarta
+                </h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 line-clamp-2">
+                  Prosesi ritual tapa bisu mengelilingi benteng keraton dipimpin kawalan pusaka ageng dan pusaka Kebo Bule Kyai Slamet.
+                </p>
+<div class="mt-space-sm flex flex-col gap-1 text-on-surface-variant font-label-sm text-label-sm">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">lock_clock</span> Wajib busana santun &amp; hening
+                  </span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">location_on</span> Kori Kamandungan Keraton Solo
+                  </span>
+</div>
+</div>
+<div class="mt-space-md pt-space-sm">
+<button class="w-full bg-surface-cream-subtle hover:bg-terracotta-soft text-primary font-label-md text-label-md py-2.5 rounded-full font-semibold flex items-center justify-center gap-1 transition-colors cursor-pointer" onclick="openEventDetail('kirab')">
+<span>Baca selengkapnya</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Event 3: Pasar Perdana Batik & Workshop Canting Tradisional -->
+<article class="bg-surface-container-lowest rounded-2xl shadow-sm overflow-hidden flex flex-col group hover:shadow-md transition-shadow">
+<div class="relative h-56 overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Indonesian batik craftswoman using copper canting tool drawing hot wax on fine cotton cloth, natural earthy sogan dyes in ceramic pots inside a heritage wooden Javanese house in Kampung Batik Kauman Solo, warm sunlight stream" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBUfA7v7KjwG2fpRxGhuUoT2SbE2Qktp3f-Y7uzki7zwqqdUsn2Tp9rvnSS_DI_rV95nn3HLQVGH_FSJdlDVqUM-vFq2XP8XVe3cJhIo6WVW4XyiDiWGFcstmNlHPJg6wGTfaFw2upBy-40peYopuFIpvsOV5-Kglp5cC6yb3YTZUevRcgIRUJwe_dvmC_Y5cQzL2sxJQD6hvhwBTOqWf6JNTBsm-d-BFijqBm0cWvO"/>
+<span class="absolute top-space-sm left-space-sm bg-sogan-gold text-on-primary font-label-sm text-label-sm px-space-sm py-0.5 rounded-full font-semibold shadow-sm">
+                Workshop &amp; Kriya
+              </span>
+<span class="absolute bottom-space-sm right-space-sm bg-surface-container-lowest/90 backdrop-blur-md text-on-surface font-label-sm text-label-sm px-space-sm py-0.5 rounded-full font-bold">
+                Rp 50.000 / Org
+              </span>
+</div>
+<div class="p-space-md flex-1 flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-1 font-label-sm text-label-sm text-sogan-gold mb-1">
+<span class="material-symbols-outlined text-[16px]">schedule</span> 09:00 – 15:00 WIB
+                </div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">
+                  Pasar Perdana Batik &amp; Workshop Canting Tradisional
+                </h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 line-clamp-2">
+                  Belajar membatik tulis motif klasik Larangan langsung dari maestro pembatik Kauman, bawa pulang hasil karya mandiri.
+                </p>
+<div class="mt-space-sm flex flex-col gap-1 text-on-surface-variant font-label-sm text-label-sm">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">palette</span> Termasuk kain mori &amp; pewarnaan sogan
+                  </span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">location_on</span> Kauman Batik Village
+                  </span>
+</div>
+</div>
+<div class="mt-space-md pt-space-sm">
+<button class="w-full bg-surface-cream-subtle hover:bg-terracotta-soft text-primary font-label-md text-label-md py-2.5 rounded-full font-semibold flex items-center justify-center gap-1 transition-colors cursor-pointer" onclick="openEventDetail('batik')">
+<span>Baca selengkapnya</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</article>
+</div>
+</div>
+</section>
+</div>
+<!-- Modal / Dialog Detail Kegiatan & Pemesanan Tiket -->
+<div class="fixed inset-0 z-50 hidden bg-inverse-surface/60 backdrop-blur-sm flex items-center justify-center p-space-md sm:p-space-lg" id="event-detail-modal">
+<div class="bg-surface-container-lowest w-full max-w-3xl max-h-[90vh] overflow-y-auto rounded-2xl shadow-xl flex flex-col relative animate-in fade-in zoom-in duration-200">
+<!-- Close Button -->
+<button aria-label="Tutup jendela" class="absolute top-4 right-4 z-20 w-10 h-10 rounded-full bg-surface-container-lowest/80 hover:bg-surface-cream-subtle flex items-center justify-center text-on-surface transition-colors cursor-pointer" onclick="closeEventModal()">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+<!-- Poster Besar Modal -->
+<div class="relative h-64 sm:h-72 w-full overflow-hidden bg-surface-dim">
+<img class="w-full h-full object-cover" data-alt="Solo cultural heritage grand performance hall with artistic staging warm terracotta and amber atmospheric light" id="modal-poster-img" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAttr3PJ2P-wNw5qU2TsGTz_4-XYbwJ3Mp22jMzyuTljh2grL8Y97U39g0PgJyl1YRsZ5byOspqsEE4SQS5Me5THtvMQeXOhldZ-NKLe4NPbDqHuRH3WnTB8rKrjsSjZMfp2xfrw44sHz2earjcK8W1JsGFkWsRe5bi6H3MKmCkeXPj3TfvNYAoI8j1NDRtEgedNYomXRgxeUorsmumeCwX22CdhQvhdboxJD0KNmW9"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/90 via-on-surface/30 to-transparent"></div>
+<div class="absolute bottom-space-md left-space-md right-space-md flex flex-col text-on-primary">
+<div class="flex items-center gap-2 mb-1">
+<span class="bg-primary px-space-sm py-0.5 rounded-full font-label-sm text-label-sm font-semibold uppercase" id="modal-category-badge">
+              Festival
+            </span>
+<span class="bg-surface-container-lowest/30 backdrop-blur-sm px-space-sm py-0.5 rounded-full font-label-sm text-label-sm" id="modal-quota-badge">
+              Sisa Kuota: 120 Kursi
+            </span>
+</div>
+<h3 class="font-headline-lg text-headline-lg font-bold leading-tight" id="modal-title">
+            Judul Kegiatan Budaya
+          </h3>
+</div>
+</div>
+<!-- Isi Informasi & Rute/Lokasi -->
+<div class="p-space-md sm:p-space-lg flex flex-col gap-space-lg">
+<!-- Metadata Waktu & Lokasi -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md bg-surface-cream-subtle p-space-md rounded-xl">
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[22px] mt-0.5">calendar_month</span>
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Jadwal Pelaksanaan</span>
+<span class="font-label-md text-label-md text-on-surface font-semibold" id="modal-time-text">
+                Rabu, 15 Oktober 2025 • 20:00 - 22:30 WIB
+              </span>
+</div>
+</div>
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[22px] mt-0.5">map</span>
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Lokasi Presisi</span>
+<span class="font-label-md text-label-md text-on-surface font-semibold" id="modal-location-text">
+                Gedung Wayang Orang Sriwedari, Solo
+              </span>
+</div>
+</div>
+</div>
+<!-- Deskripsi Panjang -->
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mb-1">Deskripsi Kegiatan</h4>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed" id="modal-desc-text">
+            Pentas kesenian adiluhung khas Kota Solo yang menampilkan cerita pewayangan bermutu tinggi dengan iringan orkestrasi gamelan slendro pelog asli Keraton. Wisatawan disarankan hadir 30 menit sebelum acara.
+          </p>
+</div>
+<!-- Peta Interaktif / Lokasi -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md text-on-surface font-semibold">Peta Petunjuk Arah</span>
+<span class="font-label-sm text-label-sm text-primary flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">directions_walk</span> Area Parkir &amp; Pintu Gerbang Utama
+            </span>
+</div>
+<div class="w-full h-44 rounded-xl bg-cover bg-center overflow-hidden" data-location="Gedung Wayang Orang Sriwedari Surakarta" id="modal-map-view" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDR-063_ao7RNgce-NTMQi0ad3AurdlBLaFqLoywRdAQkd0DhsZBVoOGdtwSLXCHQSucLjcZd1sAK14ar5oAnsMQ1_o-lXUfFmv5vg8ygjTB6Pk2dhoQdo_3GHdKsBuKPh6UoMVmwsS47nVkKGYidVu2W3Rgkm3ar6BW9EShmZ3kEXzUuzP8npt4ZykuCW-PmLPV7ozgmvSTk7ktXFuIHqCliMbDHsw2074AapogNAW')"></div>
+</div>
+<!-- Bagian Pemesanan Tiket Dinamis -->
+<div class="bg-surface-cream-subtle/80 p-space-md sm:p-space-lg rounded-2xl flex flex-col gap-space-md" id="modal-ticketing-section">
+<!-- Diisi secara dinamis melalui JS: Form bayar atau Badge gratis -->
+</div>
+</div>
+</div>
+</div>
+<!-- Notification Toast -->
+<div class="fixed bottom-6 right-6 z-50 hidden bg-on-surface text-on-primary px-space-md py-space-sm rounded-xl shadow-lg flex items-center gap-space-sm animate-bounce" id="toast-notify">
+<span class="material-symbols-outlined text-terracotta-soft text-[20px]">check_circle</span>
+<span class="font-label-md text-label-md" id="toast-message">Berhasil diproses</span>
+</div>
+</div>
+<script>
+  // Data Mock Event Kalender Budaya Surakarta
+  const EVENT_DATABASE = {
+    "2025-10-15": {
+      dayName: "Rabu, 15 Oktober 2025",
+      events: [
+        {
+          id: "sipa",
+          title: "Solo International Performing Arts (SIPA 2025)",
+          category: "Festival Internasional",
+          isSponsor: true,
+          time: "19:30 WIB – Selesai",
+          location: "Benteng Vastenburg, Kedung Lumbu",
+          price: 0,
+          quota: "350 Kursi Reguler",
+          mapLocation: "Benteng Vastenburg Surakarta",
+          desc: "Perhelatan seni pertunjukan mahakarya lintas benua yang menyatukan delegasi tari, musik, teater dunia dalam panggung megah berlatar arsitektur benteng kolonial Solo. Bebas biaya masuk dengan wajib reservasi barcode masuk.",
+          posterPrompt: "Solo International Performing Arts stage performance with dynamic modern cultural dancers illuminated by deep dramatic stage lights and backdrop of historic Benteng Vastenburg brick fortress under the evening sky, warm terracotta accents and deep indigo shadows"
+        },
+        {
+          id: "wayang",
+          title: "Pentas Wayang Orang Sriwedari: Lakon Gatotkaca Gugur",
+          category: "Seni Tari & Teater",
+          isSponsor: false,
+          time: "20:00 – 22:30 WIB",
+          location: "Gedung Wayang Orang Sriwedari, Solo",
+          price: 20000,
+          quota: "85 Kursi VIP & Reguler",
+          mapLocation: "Gedung Wayang Orang Sriwedari Surakarta",
+          desc: "Kisah kepahlawanan ksatria Pringgandani dalam membela kebenaran dengan iringan gamelan live klasik Surakarta. Nikmati lakon penuh dedikasi seniman wayang legendaris Solo.",
+          posterPrompt: "Authentic traditional Javanese dancers performing Wayang Orang Sriwedari in elaborate gilded costumes, Gatotkaca warrior with ornate wings and intricate batik sarong on traditional stage in Solo, soft vintage warm illumination"
+        },
+        {
+          id: "kirab",
+          title: "Kirab Pusaka Malam 1 Suro Keraton Surakarta",
+          category: "Tradisi Sakral Keraton",
+          isSponsor: false,
+          time: "23:00 WIB – Dini Hari",
+          location: "Kori Kamandungan Keraton Solo",
+          price: 0,
+          quota: "Terbuka Luas (Rute Terbuka)",
+          mapLocation: "Keraton Surakarta Hadiningrat",
+          desc: "Prosesi ritual tapa bisu mengelilingi benteng keraton dipimpin kawalan pusaka ageng dan kawanan Kebo Bule Kyai Slamet. Pengunjung diwajibkan berbusana sopan, tidak bersepatu pada area tertentu, serta menjaga ketenangan spiritual.",
+          posterPrompt: "Solemn Javanese royal palace midnight procession in Kraton Surakarta Hadiningrat, royal courtiers in traditional black beskap attire carrying sacred heirlooms by candlelight, sacred white water buffalo Kebo Bule leading quietly on red brick pavement"
+        },
+        {
+          id: "batik",
+          title: "Pasar Perdana Batik & Workshop Canting Tradisional",
+          category: "Workshop & Kriya",
+          isSponsor: false,
+          time: "09:00 – 15:00 WIB",
+          location: "Kauman Batik Village",
+          price: 50000,
+          quota: "24 Peserta Per Sesi",
+          mapLocation: "Kampung Batik Kauman Surakarta",
+          desc: "Belajar membatik tulis motif klasik Larangan langsung dari maestro pembatik Kauman. Termasuk kain mori 40x40 cm, penggunaan canting, lilin malam, dan proses pewarnaan alami sogan khas Solo.",
+          posterPrompt: "Indonesian batik craftswoman using copper canting tool drawing hot wax on fine cotton cloth, natural earthy sogan dyes in ceramic pots inside a heritage wooden Javanese house in Kampung Batik Kauman Solo, warm sunlight stream"
+        }
+      ]
+    },
+    "2025-10-18": {
+      dayName: "Sabtu, 18 Oktober 2025",
+      events: [
+        {
+          id: "mangkunegaran",
+          title: "Mangkunegaran Performing Art & Culinary Heritage",
+          category: "Pentas Tari Puro",
+          isSponsor: true,
+          time: "19:00 WIB – 21:30 WIB",
+          location: "Pamedan Pura Mangkunegaran Solo",
+          price: 0,
+          quota: "180 Pengunjung",
+          mapLocation: "Pura Mangkunegaran Surakarta",
+          desc: "Menyaksikan tarian Bedhaya klasik kerabat istana Mangkunegaran dilanjutkan dengan pesta kuliner legendaris Apem & Selat Solo.",
+          posterPrompt: "Pura Mangkunegaran pendopo grand pavilion with traditional royal javanese dancers in golden costumes, lanterns illuminating open green courtyard at twilight"
+        },
+        {
+          id: "laweyan",
+          title: "Tour Arsitektur Kampung Juragan Laweyan",
+          category: "Tur Heritage",
+          isSponsor: false,
+          time: "08:30 – 11:30 WIB",
+          location: "Sentra Batik Laweyan",
+          price: 35000,
+          quota: "15 Orang",
+          mapLocation: "Kampung Batik Laweyan Surakarta",
+          desc: "Menelusuri lorong sempit berbenteng tinggi dengan gaya arsitektur perpaduan Jawa, Tionghoa, dan Eropa peninggalan saudagar batik tempo doeloe.",
+          posterPrompt: "High brick walls and vintage arched alleyways of Kampung Batik Laweyan in Surakarta with warm morning sunlight casting shadows on historic paving"
+        }
+      ]
+    },
+    "2025-10-24": {
+      dayName: "Jumat, 24 Oktober 2025",
+      events: [
+        {
+          id: "sekaten",
+          title: "Miyos Gangsa Sekaten di Masjid Agung Surakarta",
+          category: "Tradisi Keraton",
+          isSponsor: true,
+          time: "13:30 – Selesai",
+          location: "Pagongan Masjid Agung Keraton Solo",
+          price: 0,
+          quota: "Akses Terbuka Umum",
+          mapLocation: "Masjid Agung Surakarta",
+          desc: "Dua perangkat gamelan pusaka Kyai Guntur Madu dan Kyai Guntur Sari dibunyikan secara bergantian menyambut peringatan Maulid Nabi Muhammad SAW.",
+          posterPrompt: "Historic Grand Mosque of Surakarta with Javanese tiered wooden roof, royal courtiers playing antique bronze gamelan instruments in traditional open pagongan pavilion"
+        }
+      ]
+    }
+  };
+
+  // State
+  let currentYear = 2025;
+  let currentMonth = 9; // Oktober (0-indexed: 9)
+  let selectedDateString = "2025-10-15";
+  let activeEventData = null;
+
+  const monthNames = [
+    "Januari", "Februari", "Maret", "April", "Mei", "Juni",
+    "Juli", "Agustus", "September", "Oktober", "November", "Desember"
+  ];
+
+  // Inisialisasi Render Kalender
+  function renderCalendar() {
+    const daysGrid = document.getElementById("calendar-days-grid");
+    const monthDisplay = document.getElementById("current-month-display");
+    daysGrid.innerHTML = "";
+    
+    monthDisplay.innerText = `${monthNames[currentMonth]} ${currentYear}`;
+
+    const firstDayIndex = new Date(currentYear, currentMonth, 1).getDay();
+    const daysInMonth = new Date(currentYear, currentMonth + 1, 0).getDate();
+
+    // Hari dari bulan sebelumnya (placeholder kosong)
+    for (let i = 0; i < firstDayIndex; i++) {
+      const emptyCell = document.createElement("div");
+      emptyCell.className = "h-11 sm:h-12 flex items-center justify-center opacity-20 text-on-surface-variant font-label-md";
+      emptyCell.innerText = "";
+      daysGrid.appendChild(emptyCell);
+    }
+
+    // Hari aktif
+    for (let day = 1; day <= daysInMonth; day++) {
+      const dayStr = `${currentYear}-${String(currentMonth + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+      const isSelected = dayStr === selectedDateString;
+      const hasEvents = !!EVENT_DATABASE[dayStr];
+      const hasSacred = hasEvents && EVENT_DATABASE[dayStr].events.some(e => e.category.toLowerCase().includes('sakral') || e.category.toLowerCase().includes('keraton'));
+
+      const dayCell = document.createElement("button");
+      dayCell.className = `h-11 sm:h-12 rounded-xl flex flex-col items-center justify-center relative font-label-md transition-all cursor-pointer ${
+        isSelected 
+          ? "bg-primary text-on-primary font-bold shadow-md scale-105" 
+          : "hover:bg-surface-cream-subtle text-on-surface"
+      }`;
+
+      // Teks tanggal
+      dayCell.innerHTML = `<span>${day}</span>`;
+
+      // Indikator Titik Event
+      if (hasEvents) {
+        const dot = document.createElement("span");
+        dot.className = `w-1.5 h-1.5 rounded-full mt-0.5 ${
+          isSelected 
+            ? "bg-on-primary" 
+            : (hasSacred ? "bg-batik-indigo" : "bg-sogan-gold")
+        }`;
+        dayCell.appendChild(dot);
+      }
+
+      dayCell.addEventListener("click", () => {
+        selectedDateString = dayStr;
+        renderCalendar();
+        updateSelectedDateEvents(dayStr);
+      });
+
+      daysGrid.appendChild(dayCell);
+    }
+  }
+
+  // Update Tampilan Kegiatan Berdasarkan Hari Terpilih
+  function updateSelectedDateEvents(dateKey) {
+    const calendarDateDisplay = document.getElementById("calendar-date-display");
+    const dynamicTitle = document.getElementById("dynamic-section-title");
+    const countBadge = document.getElementById("events-count-badge");
+
+    const data = EVENT_DATABASE[dateKey];
+    
+    if (data) {
+      calendarDateDisplay.innerText = data.dayName;
+      dynamicTitle.innerText = `Kegiatan Budaya di ${data.dayName.split(", ")[1] || data.dayName}`;
+      countBadge.innerText = `${data.events.length} Pergelaran Tersedia`;
+    } else {
+      const [y, m, d] = dateKey.split("-");
+      const customDateName = `${parseInt(d)} ${monthNames[parseInt(m) - 1]} ${y}`;
+      calendarDateDisplay.innerText = customDateName;
+      dynamicTitle.innerText = `Kegiatan Budaya di ${customDateName}`;
+      countBadge.innerText = `0 Pergelaran (Jadwal Bersih)`;
+    }
+
+    showToast(`Menampilkan jadwal untuk ${calendarDateDisplay.innerText}`);
+  }
+
+  // Navigasi Bulan
+  document.getElementById("prev-month-btn").addEventListener("click", () => {
+    currentMonth--;
+    if (currentMonth < 0) {
+      currentMonth = 11;
+      currentYear--;
+    }
+    renderCalendar();
+  });
+
+  document.getElementById("next-month-btn").addEventListener("click", () => {
+    currentMonth++;
+    if (currentMonth > 11) {
+      currentMonth = 0;
+      currentYear++;
+    }
+    renderCalendar();
+  });
+
+  document.getElementById("today-shortcut-btn").addEventListener("click", () => {
+    currentYear = 2025;
+    currentMonth = 9;
+    selectedDateString = "2025-10-15";
+    renderCalendar();
+    updateSelectedDateEvents(selectedDateString);
+  });
+
+  // Modal Detail & Logika Pemesanan
+  function openEventDetail(eventId) {
+    // Cari event dari database
+    let target = null;
+    for (let k in EVENT_DATABASE) {
+      const found = EVENT_DATABASE[k].events.find(e => e.id === eventId);
+      if (found) {
+        target = found;
+        break;
+      }
+    }
+
+    if (!target) return;
+    activeEventData = target;
+
+    const modal = document.getElementById("event-detail-modal");
+    document.getElementById("modal-title").innerText = target.title;
+    document.getElementById("modal-category-badge").innerText = target.category;
+    document.getElementById("modal-quota-badge").innerText = `Kapasitas: ${target.quota}`;
+    document.getElementById("modal-time-text").innerText = target.time;
+    document.getElementById("modal-location-text").innerText = target.location;
+    document.getElementById("modal-desc-text").innerText = target.desc;
+    
+    const posterImg = document.getElementById("modal-poster-img");
+    posterImg.setAttribute("data-alt", target.posterPrompt);
+
+    const mapView = document.getElementById("modal-map-view");
+    mapView.setAttribute("data-location", target.mapLocation);
+
+    // Form / Logika Tiket
+    const ticketingContainer = document.getElementById("modal-ticketing-section");
+    ticketingContainer.innerHTML = "";
+
+    if (target.price > 0) {
+      // Tiket Berbayar
+      const ticketFee = 2500; // Convenience fee
+      ticketingContainer.innerHTML = `
+        <div class="flex items-center justify-between pb-space-sm">
+          <div>
+            <span class="font-headline-sm text-headline-sm text-on-surface">Pemesanan Tiket Masuk</span>
+            <span class="font-body-sm text-body-sm text-on-surface-variant block">E-Tiket resmi dengan QR Code Disbudpar Solo</span>
+          </div>
+          <span class="font-headline-sm text-headline-sm text-primary font-bold">Rp ${target.price.toLocaleString('id-ID')} / orang</span>
+        </div>
+
+        <div class="bg-surface-container-lowest p-space-md rounded-xl flex items-center justify-between">
+          <span class="font-label-md text-label-md text-on-surface">Jumlah Tiket Wisatawan:</span>
+          <div class="flex items-center gap-space-sm">
+            <button onclick="changeTicketQty(-1)" class="w-8 h-8 rounded-full bg-surface-cream-subtle hover:bg-terracotta-soft text-primary font-bold flex items-center justify-center">-</button>
+            <span id="ticket-qty" class="font-headline-sm text-headline-sm w-8 text-center text-on-surface">1</span>
+            <button onclick="changeTicketQty(1)" class="w-8 h-8 rounded-full bg-surface-cream-subtle hover:bg-terracotta-soft text-primary font-bold flex items-center justify-center">+</button>
+          </div>
+        </div>
+
+        <div class="space-y-1 text-on-surface-variant font-label-md text-label-md pt-2">
+          <div class="flex justify-between">
+            <span>Subtotal Tiket (<span id="calc-qty">1</span>x):</span>
+            <span id="calc-subtotal" class="font-semibold text-on-surface">Rp ${target.price.toLocaleString('id-ID')}</span>
+          </div>
+          <div class="flex justify-between">
+            <span>Biaya Layanan &amp; Pelestarian Budaya:</span>
+            <span>Rp ${ticketFee.toLocaleString('id-ID')}</span>
+          </div>
+          <div class="flex justify-between pt-2 text-on-surface font-headline-sm text-headline-sm font-bold">
+            <span>Total Pembayaran:</span>
+            <span id="calc-total" class="text-primary">Rp ${(target.price + ticketFee).toLocaleString('id-ID')}</span>
+          </div>
+        </div>
+
+        <button 
+          onclick="submitTicketBooking()" 
+          class="w-full bg-primary hover:bg-terracotta-hover text-on-primary py-3.5 rounded-full font-label-md text-label-md font-bold shadow-md flex items-center justify-center gap-2 cursor-pointer transition-colors mt-2"
+        >
+          <span class="material-symbols-outlined text-[18px]">shopping_cart_checkout</span>
+          Pesan Tiket Sekarang
+        </button>
+      `;
+    } else {
+      // Tiket Bebas / Gratis
+      ticketingContainer.innerHTML = `
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-md">
+          <div class="flex items-center gap-space-sm">
+            <span class="w-12 h-12 rounded-full bg-sogan-gold/20 text-sogan-gold flex items-center justify-center flex-shrink-0">
+              <span class="material-symbols-outlined text-[28px]">stars</span>
+            </span>
+            <div>
+              <span class="font-label-md text-label-md text-primary font-bold tracking-wide uppercase block">
+                Akses Bebas / Gratis Tanpa Tiket
+              </span>
+              <p class="font-body-sm text-body-sm text-on-surface-variant">
+                Acara ini didanai oleh Kasunanan &amp; Pemerintah Kota Solo. Terbuka langsung bagi masyarakat &amp; wisatawan.
+              </p>
+            </div>
+          </div>
+          <button 
+            onclick="saveToGoogleCalendar()" 
+            class="bg-surface-container-lowest hover:bg-surface-cream-subtle text-primary font-label-md text-label-md px-space-lg py-3 rounded-full font-semibold shadow-sm flex items-center justify-center gap-2 cursor-pointer transition-colors flex-shrink-0"
+          >
+            <span class="material-symbols-outlined text-[18px]">calendar_add_on</span>
+            Simpan ke Kalender Google
+          </button>
+        </div>
+      `;
+    }
+
+    modal.classList.remove("hidden");
+    document.body.style.overflow = "hidden";
+  }
+
+  function closeEventModal() {
+    const modal = document.getElementById("event-detail-modal");
+    modal.classList.add("hidden");
+    document.body.style.overflow = "auto";
+  }
+
+  // Handle Perubahan Jumlah Tiket
+  let currentTicketCount = 1;
+  function changeTicketQty(delta) {
+    if (!activeEventData) return;
+    currentTicketCount = Math.max(1, Math.min(10, currentTicketCount + delta));
+    
+    const qtyElem = document.getElementById("ticket-qty");
+    const calcQty = document.getElementById("calc-qty");
+    const subtotalElem = document.getElementById("calc-subtotal");
+    const totalElem = document.getElementById("calc-total");
+
+    if (qtyElem) qtyElem.innerText = currentTicketCount;
+    if (calcQty) calcQty.innerText = currentTicketCount;
+
+    const subtotal = activeEventData.price * currentTicketCount;
+    const fee = 2500;
+    const total = subtotal + fee;
+
+    if (subtotalElem) subtotalElem.innerText = `Rp ${subtotal.toLocaleString('id-ID')}`;
+    if (totalElem) totalElem.innerText = `Rp ${total.toLocaleString('id-ID')}`;
+  }
+
+  function submitTicketBooking() {
+    closeEventModal();
+    showToast(`Pemesanan ${currentTicketCount} tiket "${activeEventData.title}" berhasil diarahkan ke sistem pembayaran!`);
+  }
+
+  function saveToGoogleCalendar() {
+    closeEventModal();
+    showToast(`Acara "${activeEventData.title}" berhasil disimpan di Google Calendar Anda.`);
+  }
+
+  function showToast(msg) {
+    const toast = document.getElementById("toast-notify");
+    const msgElem = document.getElementById("toast-message");
+    msgElem.innerText = msg;
+    toast.classList.remove("hidden");
+    setTimeout(() => {
+      toast.classList.add("hidden");
+    }, 3800);
+  }
+
+  // Close modal when clicking on backdrop
+  document.getElementById("event-detail-modal").addEventListener("click", (e) => {
+    if (e.target.id === "event-detail-modal") {
+      closeEventModal();
+    }
+  });
+
+  // Run On Load
+  renderCalendar();
+</script></main><nav class="lg:hidden fixed bottom-0 left-0 right-0 z-50 bg-surface-container-lowest/95 backdrop-blur-xl shadow-[0_-2px_12px_rgba(0,0,0,0.06)] px-space-sm py-space-xs" data-active-classes="bg-primary-container text-on-primary-container font-label-sm rounded-xl py-space-xs shadow-sm"><div class="max-w-md mx-auto grid grid-cols-5 gap-space-xs"><a class="flex flex-col items-center justify-center py-space-xs rounded-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="home" href="home.php"><span class="material-symbols-outlined text-[22px]">temple_buddhist</span><span class="font-label-sm text-label-sm mt-0.5">Home</span></a><a aria-current="page" class="flex flex-col items-center justify-center transition-colors bg-primary-container text-on-primary-container font-label-sm rounded-xl py-space-xs shadow-sm" data-path="kalender-budaya" href="kalender-budaya.php"><span class="material-symbols-outlined text-[22px]">calendar_month</span><span class="font-label-sm text-label-sm mt-0.5">Budaya</span></a><a class="flex flex-col items-center justify-center py-space-xs rounded-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="marketplace" href="marketplace.php"><span class="material-symbols-outlined text-[22px]">shopping_bag</span><span class="font-label-sm text-label-sm mt-0.5">Pasar</span></a><a class="flex flex-col items-center justify-center py-space-xs rounded-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="info-wisata" href="info-wisata.php"><span class="material-symbols-outlined text-[22px]">map</span><span class="font-label-sm text-label-sm mt-0.5">Wisata</span></a><a class="flex flex-col items-center justify-center py-space-xs rounded-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="ai-chatbot" href="ai-chatbot.php"><span class="material-symbols-outlined text-[22px]">smart_toy</span><span class="font-label-sm text-label-sm mt-0.5">AI Solo</span></a></div></nav><footer class="w-full bg-surface-cream-subtle pt-space-xl pb-16 lg:pb-space-xl shadow-[0_-1px_6px_rgba(0,0,0,0.02)]"><div class="max-w-[1280px] mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop"><div class="grid grid-cols-1 md:grid-cols-4 gap-space-lg mb-space-xl"><div><div class="flex items-center gap-space-sm mb-space-sm"><img alt="Surakarta's Culture Logo" class="h-7 w-auto object-contain" src="p.jpg"/><span class="font-headline-sm text-headline-sm text-primary">Surakarta's Culture</span></div><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">Portal terpadu pelestarian warisan tradisi, agenda festival, kriya batik, serta panduan pariwisata adiluhung Kota Surakarta Hadiningrat.</p></div><div><h4 class="font-headline-sm text-headline-sm text-on-surface mb-space-md">Jelajah Warisan</h4><ul class="space-y-space-sm font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-primary transition-colors" data-path="kalender-budaya" href="kalender-budaya.php">Kirab Pusaka &amp; Sekaten</a></li><li><a class="hover:text-primary transition-colors" data-path="info-wisata" href="info-wisata.php">Kraton &amp; Pura Mangkunegaran</a></li><li><a class="hover:text-primary transition-colors" data-path="marketplace" href="marketplace.php">Kampung Batik Kauman &amp; Laweyan</a></li><li><a class="hover:text-primary transition-colors" data-path="kalender-budaya" href="kalender-budaya.php">Wayang Orang Sriwedari</a></li></ul></div><div><h4 class="font-headline-sm text-headline-sm text-on-surface mb-space-md">Layanan Digital</h4><ul class="space-y-space-sm font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-primary transition-colors" data-path="ai-chatbot" href="ai-chatbot.php">Asisten Pemandu AI Solo</a></li><li><a class="hover:text-primary transition-colors" data-path="marketplace" href="marketplace.php">Sentra Pengrajin Lokal</a></li><li><a class="hover:text-primary transition-colors" data-path="info-wisata" href="info-wisata.php">Rute &amp; Transportasi BST</a></li><li><a class="hover:text-primary transition-colors" data-path="home" href="home.php">Pusat Bantuan Wisatawan</a></li></ul></div><div><h4 class="font-headline-sm text-headline-sm text-on-surface mb-space-md">Pusat Informasi</h4><p class="font-body-sm text-body-sm text-on-surface-variant mb-space-sm">Dinas Kebudayaan dan Pariwisata Kota Surakarta<br/>Jl. Brigjend Slamet Riyadi, Surakarta, Jawa Tengah</p><div class="flex items-center gap-space-sm"><span class="w-3 h-3 rounded-full bg-sogan-gold inline-block"></span><span class="font-label-md text-label-md text-on-surface">Solo: The Spirit of Java</span></div></div></div><div class="pt-space-lg flex flex-col sm:flex-row items-center justify-between gap-space-md text-on-surface-variant font-label-md text-label-md"><p>© 2025 Surakarta's Culture. Dilindungi Undang-Undang Republik Indonesia.</p><div class="flex items-center gap-space-lg"><a class="hover:text-primary transition-colors" data-path="home" href="home.php">Privasi</a><a class="hover:text-primary transition-colors" data-path="home" href="home.php">Ketentuan Layanan</a><a class="hover:text-primary transition-colors" data-path="ai-chatbot" href="ai-chatbot.php">Pusat Bantuan</a></div></div></div></footer></body></html>
