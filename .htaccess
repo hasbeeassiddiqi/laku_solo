@@ -1,12 +1,2 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <title>Mengalihkan Halaman...</title>
-    <!-- Kode di bawah ini yang berfungsi untuk otomatis mengalihkan ke index.php dalam 0 detik -->
-    <meta http-equiv="refresh" content="0; url=index.php">
-</head>
-<body>
-    <p>Jika halaman tidak dialihkan secara otomatis, silakan <a href="index.php">klik di sini</a>.</p>
-</body>
-</html>
+Options -Indexes
+DirectoryIndex index.html
