@@ -5,11 +5,52 @@ $user = 'root';
 $password = '';
 $database = 'surakarta_culture';
 
+// Membuat koneksi
 $conn = new mysqli($host, $user, $password, $database);
 
+// Mengecek koneksi (menyimpan statusnya ke dalam variabel untuk ditampilkan di HTML)
 if ($conn->connect_error) {
-    die('Koneksi database gagal: ' . $conn->connect_error);
+    $status_koneksi = "<span style='color: red;'>Koneksi database gagal: " . $conn->connect_error . "</span>";
+} else {
+    $status_koneksi = "<span style='color: green;'>Koneksi database berhasil ke: <strong>" . $database . "</strong></span>";
 }
 
 $conn->set_charset('utf8mb4');
 ?>
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cek Koneksi Database</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: white;
+            padding: 20px 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Status Sistem Surakarta Culture</h2>
+        
+        <!-- Menampilkan hasil koneksi PHP di dalam HTML -->
+        <p>Status: <?php echo $status_koneksi; ?></p>
+    </div>
+
+</body>
+</html>
